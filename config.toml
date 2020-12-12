@@ -1,0 +1,120 @@
+# For a description of these parameters, please visit the theme wiki.
+# https://github.com/pacollins/hugo-future-imperfect-slim/wiki/config.toml
+baseurl                 = "https://pratikjagrut.github.io/"
+DefaultContentLanguage  = "en"
+title                   = "Welcome to Pratik's space"
+theme                   = "hugo-future-imperfect-slim"
+paginate                = 4
+disqusShortname         = ""
+googleAnalytics         = ""
+pluralizeListTitles     = false
+disableLanguages        = []
+
+[markup.goldmark.renderer]
+  unsafe                = true
+
+[outputs]
+  home                  = ["html", "json", "rss"]
+
+[params]
+  enableCDN             = false
+  cssFiles              = ["default"]
+  jsFiles               = ["default"]
+  highlightjs           = true
+  highlightjsTheme      = "github"
+  highlightjsLang       = []
+  viewMorePostsLink     = "/blog/"
+  readingTime           = true
+  imageStretch          = ""
+  removeBlur            = false
+  socialShare           = ["twitter", "facebook", "reddit", "linkedin", "pinterest", "email"]
+  hideEmptyStats        = false
+
+  [params.meta]
+    description         = "Portfolio and Blog"
+    author              = "Pratik Jagrut"
+    favicon             = false
+    svg                 = true
+    faviconVersion      = "1"
+    msColor             = "#ffffff"
+    iOSColor            = "#ffffff"
+
+  [params.header]
+    navbarTitle         = "Pratik Jagrut"
+    dynamicTitles       = true
+    searchMenu          = true
+    shareMenu           = true
+    languageMenu        = false
+
+  [params.intro]
+    header                = "Pratik Jagrut"
+    paragraph             = "Associate software engineer at Red Hat | Frolicsome | Fitness Fanatic | Tech speaker | Traveler | Spoken at Open source summit Paris 2019"
+    rssIntro              = false
+    socialIntro           = true
+    hideWhenSingleColumn  = false
+    alwaysOnHomepage      = false
+
+    [params.intro.pic]
+      src                 = "img/main/logo.jpg"
+      shape               = "circle"
+      width               = ""
+      alt                 = "Hugo Future Imperfect Slim"
+
+  [params.sidebar]
+    about               = "This is a portfolio and blog site."
+    postAmount          = 5
+    categories          = true
+    categoriesByCount   = true
+
+  [params.footer]
+    rssFooter           = false
+    socialFooter        = true
+
+[menu]
+
+  [[menu.main]]
+    name              = "Home"
+    identifier        = "home"
+    url               = "/"
+    pre               = "<i class='fa fa-home'></i>"
+    weight            = 1
+
+  [[menu.main]]
+    name              = "About"
+    identifier        = "about"
+    url               = "/about/"
+    pre               = "<i class='far fa-id-card'></i>"
+    weight            = 2
+
+  [[menu.main]]
+    name              = "Blog"
+    identifier        = "blog"
+    url               = "/blog/"
+    pre               = "<i class='far fa-newspaper'></i>"
+    weight            = 3
+
+  [[menu.main]]
+    name              = "Categories"
+    identifier        = "categories"
+    url               = "/categories/"
+    pre               = "<i class='fas fa-sitemap'></i>"
+    weight            = 5
+
+  [[menu.main]]
+    name              = "Resume"
+    identifier        = "resume"
+    url               = "/resume/"
+    pre               = "<i class='far fa-id-card'></i>"
+    weight            = 6
+
+[social]
+  # Coding Communities
+  github                = "pratikjagrut"
+  # Publishing Communities
+  medium                = "asdfasdf"
+  # Professional/Business Oriented Communities
+  linkedin              = "pratikjagrut"
+  # Social Networks
+  twitter               = "pratikjagrut"
+  # Email
+  email                 = "jagrut.pratik@gmail.com"

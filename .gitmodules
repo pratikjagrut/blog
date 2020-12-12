@@ -1,0 +1,7 @@
+[submodule "themes/hugo-future-imperfect-slim"]
+	path = themes/hugo-future-imperfect-slim
+	url = https://github.com/pacollins/hugo-future-imperfect-slim.git
+[submodule "public"]
+	path = public
+	url = git@github.com:pratikjagrut/pratikjagrut.github.io.git
+	branch = main
