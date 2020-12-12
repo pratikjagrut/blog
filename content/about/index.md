@@ -5,3 +5,4 @@ draft: false
 layout: "about"
 ---
 
+[Resume]({{< ref "/blog/golang/next" >}} " Resume")

@@ -2,7 +2,7 @@
 # https://github.com/pacollins/hugo-future-imperfect-slim/wiki/config.toml
 baseurl                 = "https://pratikjagrut.github.io/"
 DefaultContentLanguage  = "en"
-title                   = "Welcome to Pratik's space"
+title                   = "Pratik Jagrut"
 theme                   = "hugo-future-imperfect-slim"
 paginate                = 4
 disqusShortname         = ""
@@ -48,17 +48,17 @@ disableLanguages        = []
 
   [params.intro]
     header                = "Pratik Jagrut"
-    paragraph             = "Associate software engineer at Red Hat | Frolicsome | Fitness Fanatic | Tech speaker | Traveler | Spoken at Open source summit Paris 2019"
+    paragraph             = "ASE @ Red Hat | Avid Linux lover | Opensource Enthusiast | Coder | Blogger | Tech speaker | Geek | Traveler | Frolicsome"
     rssIntro              = false
     socialIntro           = true
     hideWhenSingleColumn  = false
     alwaysOnHomepage      = false
 
     [params.intro.pic]
-      src                 = "img/main/logo.jpg"
+      src                 = "img/main/IMG_0239.JPG"
       shape               = "circle"
       width               = ""
-      alt                 = "Hugo Future Imperfect Slim"
+      alt                 = "Desktop Picture"
 
   [params.sidebar]
     about               = "This is a portfolio and blog site."
@@ -111,7 +111,7 @@ disableLanguages        = []
   # Coding Communities
   github                = "pratikjagrut"
   # Publishing Communities
-  medium                = "asdfasdf"
+  medium                = ""
   # Professional/Business Oriented Communities
   linkedin              = "pratikjagrut"
   # Social Networks

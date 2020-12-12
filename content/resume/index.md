@@ -2,135 +2,134 @@
 title: "Resume"
 date: 2020-12-12T12:21:16+05:30
 draft: false
+author: "Pratik Jagrut"
 layout: "blog"
-images:
-    - src: img/2019/03/pic03.jpg
-      alt: Valley
-      stretch: horizontal
+# images:
+#     - src: img/main/resume.jpg
+#       alt: Valley
+#       stretch: horizontal
+tags:
+  - "resume"
 ---
 
-This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
-<!--more-->
+<!-- ![Pratik Jagrut](https://github.com/pratikjagrut.png) -->
+![Pratik Jagrut](/img/main/resume.jpg "Resume")
 
-## Headings
+# PRATIK JAGRUT
 
-The following HTML `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level while `<h6>` is the lowest.
+#### Bangalore, India
+---
 
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
+A computer science engineer, an open-source enthusiast and tech
+speaker with a passion for programming, eager to learn new technologies
+and desire to work in an environment which encourages learning. I'm a
+goal-oriented individual with a pleasant personality and a tenacity that
+knows no bounds.
 
-## Paragraph
+---
 
-Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
+### Experience
 
-Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
+* **Red Hat / ​ Associate Software Engineer**
+<br /> *January 2019 - present, Bangalore, India* <br />
+  - Working on a project called &nbsp;
+    ​<a href="https://github.com/redhat-developer/service-binding-operator/issues?q=is%3Aall+author%3Apratikjagrut+" target="_blank" style="color:blue;">
+      Service Binding Operator
+    </a> which is an open source project.
+  - My primary focus is to test the quality of the product by adding automated tests and fixing bugs.
 
-## Blockquotes
+* **Red Hat / ​ Intern**
+<br /> *June 2018 - January 2019, Pune, India* <br />
+  - Worked as an intern on project SSSD(System Security Services Daemon) which is a remote authentication client for Linux based systems.
+  - Primary worked to create an automated tests framework based on Pytest to add and write automated tests.
 
-The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a `footer` or `cite` element, and optionally with in-line changes such as annotations and abbreviations.
+* **Sheng Li Telecom India Pvt Ltd / ​ Software Engineer Intern**
+<br /> *November 2017 - April 2018, Pune, India* <br />
+  - Worked as a team lead and developer for the office automation
+    project.
 
-#### Blockquote without attribution
+--- 
 
-> Tiam, ad mint andaepu dandae nostion secatur sequo quae.
-> **Note** that you can use *Markdown syntax* within a blockquote.
+### Open source Contribution
 
-#### Blockquote with attribution
+* <a href="https://github.com/tektoncd/cli/issues?q=is%3Aall+author%3Apratikjagrut+" target="_blank" style="color:blue;">
+    Tektoncd Cli
+  </a>, the Tekton Pipelines CLI project provides a CLI for interacting with Tekton!
+* <a href="https://github.com/helm/acceptance-testing" target="_blank" style="color:blue;">
+    Helm
+  </a>, the helm is a tool for managing packages of pre-configured Kubernetes resources.
 
-> Don't communicate by sharing memory, share memory by communicating.</p>
-> — <cite>Rob Pike[^1]</cite>
+---
 
-[^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
+### Community contribution
 
-## Tables
+* Speaker at Paris Open source summit 2019, 
+* Speaker Kubernetes and Cloud native Bangalore meetup.
+* Member of the organizing committee of DevConf INDIA 2018.
 
-Tables aren't part of the core Markdown spec, but Hugo supports supports them out-of-the-box.
+---
 
-   Name | Age
---------|------
-    Bob | 27
-  Alice | 23
+### Skills
 
-#### Inline Markdown within tables
+* **Programming Languages**
+  - Proficient in Golang and Python
+  - Prior experience: C++, PHP, TypeScript
 
-| Inline&nbsp;&nbsp;&nbsp;     | Markdown&nbsp;&nbsp;&nbsp;  | In&nbsp;&nbsp;&nbsp;                | Table      |
-| ---------- | --------- | ----------------- | ---------- |
-| *italics*  | **bold**  | ~~strikethrough~~&nbsp;&nbsp;&nbsp; | `code`     |
+* **Technologies**
+  - Kubernetes, OpenShift, Podman, Linux, Git, Fedora, containers
 
-## Code Blocks
+---
 
-#### Code block with backticks
+### Certifications
 
-```
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Example HTML5 Document</title>
-</head>
-<body>
-  <p>Test</p>
-</body>
-</html>
-```
-#### Code block indented with four spaces
+<!-- * [Red Hat Certified Specialist in OpenShift Administration](https://rhtapps.redhat.com/certifications/badge/verify/FDCOANQV4WIHORPUNIQWKYKL24AEQU3CUPSQX2KSDXT6RW46LQ3USGMBTDNSOFVX22WYNJ63KCC3BBTAOIVCQWO7U3Z7NRP66BA673I=){:target="_blank"} -->
+* <a href="https://rhtapps.redhat.com/certifications/badge/verify/FDCOANQV4WIHORPUNIQWKYKL24AEQU3CUPSQX2KSDXT6RW46LQ3USGMBTDNSOFVX22WYNJ63KCC3BBTAOIVCQWO7U3Z7NRP66BA673I=" target="_blank" style="color:blue;">
+  Red Hat Certified Specialist in OpenShift Administration
+</a>
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <title>Example HTML5 Document</title>
-    </head>
-    <body>
-      <p>Test</p>
-    </body>
-    </html>
+* <a href="https://rhtapps.redhat.com/certifications/badge/verify/FDCOANQV4WIHORPUNIQWKYKL24AEQU3CUPSQX2KSDXT6RW46LQ3YWP2PKMJOB2FESKFUN2GLGGL67UAA4DNI6PQU27PFU2ZMLS26POA=" target="_blank" style="color:blue;">
+  Red Hat Certified Specialist in OpenShift Application Development
+</a>
 
-#### Code block with Hugo's internal highlight shortcode
-{{< highlight html >}}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Example HTML5 Document</title>
-</head>
-<body>
-  <p>Test</p>
-</body>
-</html>
-{{< /highlight >}}
+* <a href="https://rhtapps.redhat.com/certifications/badge/verify/FDCOANQV4WIHORPUNIQWKYKL24AEQU3CUPSQX2KSDXT6RW46LQ3XCZJWRJNV7ILTXVE4I6VB7OTCG4U5NQYTCNA62RUWOCM34WWBUYQ=" target="_blank" style="color:blue;">
+  Red Hat Certified Engineer
+</a>
 
-## List Types
+* <a href="https://rhtapps.redhat.com/certifications/badge/verify/FDCOANQV4WIHORPUNIQWKYKL24AEQU3CUPSQX2KSDXT6RW46LQ3T7ULZ55KZZ56SKO7EQ3ETTLYZQ4U5NQYTCNA62RUWOCM34WWBUYQ=" target="_blank" style="color:blue;">
+  Red Hat Certified System Administrator
+</a>
 
-#### Ordered List
+---
 
-1. First item
-2. Second item
-3. Third item
+### Education
 
-#### Unordered List
+* **G. H. Raisoni College of Engineering, Nagpur, Maharashtra, India**
+  <br>*BE. Computer science and Engineering, 2014 - 2018,*<br />
+  *CGPA: 8.73*
 
-* List item
-* Another item
-* And another item
+* **Kulbhushan Jr. College, Aurangabad, Maharashtra, India​**
+   <br>*Higher School Secondary Certificate, 2012 - 2014*<br />
+      Percentage: 79.08%*
 
-#### Nested list
+---
 
-* Item
-    1. First Sub-item
-    2. Second Sub-item
+### Awards
 
-## Other Elements — abbr, sub, sup, kbd, mark
+* Secured 1st position at e-Governance conference for best e-Governance Project model at 19th National e-Governance conference (01/2015).
+* Secured 77th all India rank in IEEEXtreme 11.0, 24 hours coding competition.
 
-<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
+---
 
-H<sub>2</sub>O
+### Interests
 
-X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
+* Space science and quantum physics, philosophy, playing around open source projects, travelling, football and swimming.
 
-Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.
+---
 
-Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
+### Human languages
+
+* English  
+* Hindi
+* Marathi
+
+---
