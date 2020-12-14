@@ -64,7 +64,7 @@ knows no bounds.
 ### Community contribution
 
 * Speaker at Paris Open source summit 2019, 
-* Speaker Kubernetes and Cloud native Bangalore meetup.
+* Speaker Kubernetes and Cloud-native Bangalore meetup.
 * Member of the organizing committee of DevConf INDIA 2018.
 
 ---

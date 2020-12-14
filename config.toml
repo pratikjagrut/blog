@@ -4,7 +4,7 @@ baseurl                 = "https://pratikjagrut.github.io/"
 DefaultContentLanguage  = "en"
 title                   = "Pratik Jagrut"
 theme                   = "hugo-future-imperfect-slim"
-paginate                = 4
+paginate                = 3
 disqusShortname         = ""
 googleAnalytics         = ""
 pluralizeListTitles     = false
@@ -61,7 +61,7 @@ disableLanguages        = []
       alt                 = "Desktop Picture"
 
   [params.sidebar]
-    about               = "This is a portfolio and blog site."
+    # about               = "This is a portfolio and blog site."
     postAmount          = 5
     categories          = true
     categoriesByCount   = true
@@ -116,5 +116,6 @@ disableLanguages        = []
   linkedin              = "pratikjagrut"
   # Social Networks
   twitter               = "pratikjagrut"
+  facebook              = "jagrutpratik"
   # Email
   email                 = "jagrut.pratik@gmail.com"
