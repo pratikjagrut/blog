@@ -1,6 +1,6 @@
 # For a description of these parameters, please visit the theme wiki.
 # https://github.com/pacollins/hugo-future-imperfect-slim/wiki/config.toml
-baseurl                 = "https://pratikjagrut.github.io/"
+baseurl                 = "https://pratikjagrut.dev/"
 DefaultContentLanguage  = "en"
 title                   = "Pratik Jagrut"
 theme                   = "hugo-future-imperfect-slim"

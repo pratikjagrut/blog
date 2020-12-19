@@ -1,14 +1,16 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
+description: ""
 date: {{ .Date }}
 draft: true
 author: "Pratik Jagrut"
-tags:
-  - ''
+layout: "blog"
 images:
-  - src: ''
-    alt: ''
-    stretch: ''
+  - src: ""
+    alt: ""
+    stretch: ""
 categories:
-  - ''
+  - ""
+tags:
+  - ""
 ---

@@ -13,7 +13,7 @@ tags:
 ---
 
 <!-- ![Pratik Jagrut](https://github.com/pratikjagrut.png) -->
-![Pratik Jagrut](/img/main/resume.jpg "Resume")
+<!-- ![Pratik Jagrut](/img/main/resume.jpg "Resume") -->
 
 # PRATIK JAGRUT
 
