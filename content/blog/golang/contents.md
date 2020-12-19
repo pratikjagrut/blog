@@ -1,7 +1,7 @@
 ---
 title: "Index"
 description: ""
-date: 2020-12-19T13:50:49+05:30
+date: 2020-12-19T17:23:52+05:30
 draft: false
 author: "Pratik Jagrut"
 layout: "blog"
