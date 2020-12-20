@@ -1,7 +1,7 @@
 ---
 title: "Index"
 description: ""
-date: 2020-12-19T17:23:52+05:30
+date: 2020-12-19T22:14:14+05:30
 draft: false
 author: "Pratik Jagrut"
 layout: "blog"
@@ -32,4 +32,8 @@ tags:
 
 * <a href="/blog/golang/introduction">
       <h5 style="color:DodgerBlue;" class="fab">Introduction and Installation</h5>
+  </a> &emsp;
+
+* <a href="/blog/golang/helloworld">
+      <h5 style="color:DodgerBlue;" class="fab">First program in Go: Hello World</h5>
   </a> &emsp;

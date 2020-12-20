@@ -13,12 +13,6 @@ tags:
   - "tech"
 ---
 
-<a href="/blog/golang/contents">
-  <b style="color:DodgerBlue">
-    <i>• Contents</i>
-  </b>
-</a>  &emsp;
-
 Go is an open-source, statically typed, compiled programing language built by Google.
 It combines the simplest of both statically typed and dynamically typed languages and provides you with the proper mixture of efficiency and simple programming. 
 It is primarily fitted to building fast, efficient, and reliable server-side or system applications.
@@ -159,6 +153,14 @@ export GOPATH=$HOME/go_workspace
     <i>• Contents</i>
   </b>
 </a>  &emsp;
+
+<a href="/blog/golang/helloworld">
+    <b style="color:DodgerBlue">
+        <i>🡆 First program in Go: Hello World</i>
+    </b>
+</a>  &emsp;
+
+<br>
 
 <a href="https://github.com/pratikjagrut/go-tutorial" target="_blank">
   <b style="color:DodgerBlue" class="fab fa-github">
