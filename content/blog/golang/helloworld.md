@@ -65,6 +65,8 @@ go run main.go
 Hello, World!
 ```
 
+<hr>
+
 <a href="/blog/golang/introduction">
   <b style="color:DodgerBlue">
     <i>🡄 Introduction and Installation</i>
@@ -77,12 +79,14 @@ Hello, World!
   </b>
 </a>  &emsp;
 
-<!-- <a href="/blog/golang/">
+<a href="/blog/golang/vdc">
     <b style="color:DodgerBlue">
-        <i>🡆</i>
+        <i>Variables, data types and constants 🡆</i>
     </b>
-</a>  &emsp; -->
+</a>  &emsp;
+
 <br>
+
 <a href="https://github.com/pratikjagrut/go-tutorial/tree/master/01_helloworld" target="_blank">
   <b style="color:DodgerBlue" class="fab fa-github">
     <i>Github Repo</i>

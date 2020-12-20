@@ -147,6 +147,7 @@ export GOPATH=$HOME/go_workspace
 
 ***Note: GOPATH must be different than the path of your Go installation.***
 
+<hr>
 
 <a href="/blog/golang/contents">
   <b style="color:DodgerBlue">
@@ -162,7 +163,7 @@ export GOPATH=$HOME/go_workspace
 
 <br>
 
-<a href="https://github.com/pratikjagrut/go-tutorial" target="_blank">
+<a href="https://github.com/pratikjagrut/go-tutorial/tree/master/00_installation" target="_blank">
   <b style="color:DodgerBlue" class="fab fa-github">
     <i>Github Repo</i>
   </b>
