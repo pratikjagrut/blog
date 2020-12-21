@@ -1,6 +1,6 @@
 ---
-title: "Index"
-description: "List of contents"
+title: "Golang"
+description: "Index page"
 date: 2020-12-21T22:51:09+05:30
 draft: false
 author: "Pratik Jagrut"
