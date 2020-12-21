@@ -10,7 +10,6 @@ categories:
 tags:
   - "golang"
   - "programming"
-  - "tech"
 ---
 
 ## Variable
@@ -167,6 +166,12 @@ Every GO compiler has the flexibility to implement constant as they wish, within
   <b style="color:DodgerBlue">
     <i>• Contents</i>
   </b>
+</a>  &emsp;
+
+<a href="/blog/golang/for_loop">
+    <b style="color:DodgerBlue">
+        <i>Looping Construct 🡆</i>
+    </b>
 </a>  &emsp;
 
 <br>

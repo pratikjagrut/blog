@@ -10,7 +10,6 @@ categories:
 tags:
   - "golang"
   - "programming"
-  - "tech"
 ---
 
 # Classic hello world program
@@ -80,9 +79,9 @@ Hello, World!
 </a>  &emsp;
 
 <a href="/blog/golang/vdc">
-    <b style="color:DodgerBlue">
-        <i>Variables, data types and constants 🡆</i>
-    </b>
+  <b style="color:DodgerBlue">
+    <i>Variables, data types and constants 🡆</i>
+  </b>
 </a>  &emsp;
 
 <br>

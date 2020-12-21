@@ -1,7 +1,7 @@
 ---
 title: "Index"
 description: ""
-date: 2020-12-20T19:30:37+05:30
+date: 2020-12-21T19:48:27+05:30
 draft: false
 author: "Pratik Jagrut"
 layout: "blog"
@@ -40,4 +40,8 @@ tags:
 
 * <a href="/blog/golang/vdc">
       <span style="color:Green; text-transform: uppercase;" class="fab">Variables, data types and constants</span>
+  </a> &emsp;
+
+* <a href="/blog/golang/for_loop">
+      <span style="color:Green; text-transform: uppercase;" class="fab">Looping Construct</span>
   </a> &emsp;

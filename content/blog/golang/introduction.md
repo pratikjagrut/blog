@@ -10,7 +10,6 @@ categories:
 tags:
   - "golang"
   - "programming"
-  - "tech"
 ---
 
 Go is an open-source, statically typed, compiled programing language built by Google.
