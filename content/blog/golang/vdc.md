@@ -1,6 +1,5 @@
 ---
 title: "Variables, data types and constants"
-description: ""
 date: 2020-12-20T18:34:48+05:30
 draft: false
 author: "Pratik Jagrut"

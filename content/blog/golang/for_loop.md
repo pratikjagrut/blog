@@ -1,6 +1,5 @@
 ---
 title: "Looping Construct"
-description: "Looping construct is used when the same set of instructions has to be performed."
 date: 2020-12-21T19:34:10+05:30
 draft: false
 author: "Pratik Jagrut"
@@ -14,7 +13,7 @@ tags:
 
 Go has only one looping construct, the `for` loop.
 
-**Basic for loop**
+### Basic for loop
 
 The basic for loop has three components separated by semicolons:
 
@@ -39,7 +38,7 @@ for ; i < n; {
 }
 ```
 
-**For is also a while() loop**
+### For is also a while() loop
 
 ```
 for i < n {
@@ -47,14 +46,15 @@ for i < n {
 }
 ```
 
-**Infinite loop**
+### Infinite loop
+
 ```
 for {
     //business logic
 }
 ```
 
-## Example
+### Example
 
 ```
 package main
@@ -75,6 +75,7 @@ Iteration number: 2
 Iteration number: 3
 Iteration number: 4
 ```
+
 ***You can refer <a href="https://github.com/pratikjagrut/go-tutorial/tree/master/03_for_loop/main.go" style="color:DodgerBlue" target="_blank">main.go</a> file for examples***
 
 <hr>
@@ -91,11 +92,11 @@ Iteration number: 4
   </b>
 </a>  &emsp;
 
-<!-- <a href="/blog/golang/">
+<a href="/blog/golang/if_else">
     <b style="color:DodgerBlue">
-        <i> 🡆</i>
+        <i>Conditional Statements 🡆</i>
     </b>
-</a>  &emsp; -->
+</a>  &emsp;
 
 <br>
 

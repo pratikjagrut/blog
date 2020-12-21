@@ -1,7 +1,7 @@
 ---
 title: "Index"
-description: ""
-date: 2020-12-21T19:48:27+05:30
+description: "List of contents"
+date: 2020-12-21T22:51:09+05:30
 draft: false
 author: "Pratik Jagrut"
 layout: "blog"
@@ -44,4 +44,8 @@ tags:
 
 * <a href="/blog/golang/for_loop">
       <span style="color:Green; text-transform: uppercase;" class="fab">Looping Construct</span>
+  </a> &emsp;
+
+* <a href="/blog/golang/if_else">
+      <span style="color:Green; text-transform: uppercase;" class="fab">Conditional Statements</span>
   </a> &emsp;

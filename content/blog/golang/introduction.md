@@ -1,6 +1,5 @@
 ---
 title: "Go Introduction and Installation"
-description: ""
 date: 2020-12-19T17:23:49+05:30
 draft: false
 author: "Pratik Jagrut"

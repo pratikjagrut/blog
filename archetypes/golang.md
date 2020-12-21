@@ -1,6 +1,5 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-description: ""
 date: {{ .Date }}
 draft: true
 author: "Pratik Jagrut"
@@ -10,7 +9,6 @@ categories:
 tags:
   - "golang"
   - "programming"
-  - "tech"
 ---
 
 # Title
