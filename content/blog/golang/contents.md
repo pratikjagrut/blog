@@ -1,7 +1,7 @@
 ---
 title: "Golang"
 description: "Index page"
-date: 2020-12-21T22:51:09+05:30
+date: 2020-12-22T14:44:13+05:30
 draft: false
 author: "Pratik Jagrut"
 layout: "blog"
@@ -48,4 +48,8 @@ tags:
 
 * <a href="/blog/golang/if_else">
       <span style="color:Green; text-transform: uppercase;" class="fab">Conditional Statements</span>
+  </a> &emsp;
+
+* <a href="/blog/golang/switch">
+      <span style="color:Green; text-transform: uppercase;" class="fab">Switch Statement</span>
   </a> &emsp;

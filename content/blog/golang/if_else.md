@@ -16,7 +16,7 @@ They help us to decide which instruction is suppose to run when certain conditio
 *e.g. If I'm hungry then I'll eat else I'll wait.*
 *e.g. If score is greater than 35%, you passed, else you failed.*
 
-#### If statement in Go
+### If statement in Go
 
 ```
 if condition/expression {
@@ -104,11 +104,11 @@ if j := 10; j%2 == 0 {
   </b>
 </a>  &emsp;
 
-<!-- <a href="/blog/golang/">
+<a href="/blog/golang/switch">
     <b style="color:DodgerBlue">
-        <i> 🡆</i>
+        <i>Switch Statement 🡆</i>
     </b>
-</a>  &emsp; -->
+</a>  &emsp;
 
 <br>
 
