@@ -75,11 +75,11 @@ default:
   </b>
 </a>  &emsp;
 
-<!-- <a href="/blog/golang/">
+<a href="/blog/golang/array_slice">
     <b style="color:DodgerBlue">
-        <i> 🡆</i>
+        <i>Arrays and Slices 🡆</i>
     </b>
-</a>  &emsp; -->
+</a>  &emsp;
 
 <br>
 

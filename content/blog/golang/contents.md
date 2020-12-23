@@ -1,7 +1,7 @@
 ---
 title: "Golang"
 description: "Index page"
-date: 2020-12-22T14:44:13+05:30
+date: 2020-12-23T13:04:25+05:30
 draft: false
 author: "Pratik Jagrut"
 layout: "blog"
@@ -52,4 +52,8 @@ tags:
 
 * <a href="/blog/golang/switch">
       <span style="color:Green; text-transform: uppercase;" class="fab">Switch Statement</span>
+  </a> &emsp;
+
+* <a href="/blog/golang/array_slice">
+      <span style="color:Green; text-transform: uppercase;" class="fab">Arrays and Slices</span>
   </a> &emsp;
