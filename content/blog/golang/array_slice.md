@@ -259,11 +259,11 @@ z = append(z, 6, 7, 8) //1st arg is slice, and then can take any number of arg t
   </b>
 </a>  &emsp;
 
-<!-- <a href="/blog/golang/">
+<a href="/blog/golang/maps">
     <b style="color:DodgerBlue">
-        <i> 🡆</i>
+        <i>Maps 🡆</i>
     </b>
-</a>  &emsp; -->
+</a>  &emsp;
 
 <br>
 

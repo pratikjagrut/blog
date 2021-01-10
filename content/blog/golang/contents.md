@@ -1,7 +1,7 @@
 ---
 title: "Golang"
 description: "Index page"
-date: 2020-12-23T13:04:25+05:30
+date: 2021-01-10T18:01:19+05:30
 draft: false
 author: "Pratik Jagrut"
 layout: "blog"
@@ -56,4 +56,8 @@ tags:
 
 * <a href="/blog/golang/array_slice">
       <span style="color:Green; text-transform: uppercase;" class="fab">Arrays and Slices</span>
+  </a> &emsp;
+
+* <a href="/blog/golang/maps">
+      <span style="color:Green; text-transform: uppercase;" class="fab">Maps</span>
   </a> &emsp;
