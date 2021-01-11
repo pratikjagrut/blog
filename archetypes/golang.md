@@ -11,8 +11,6 @@ tags:
   - "programming"
 ---
 
-# Title
-
 ***You can refer <a href="" style="color:DodgerBlue" target="_blank">main.go</a> file for examples***
 
 <hr>
