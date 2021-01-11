@@ -30,7 +30,7 @@ knows no bounds.
 
 ### Experience
 
-* **Red Hat / ​ Associate Software Engineer**
+* **Red Hat / ​Software Quality Engineer**
 <br /> *January 2019 - present, Bangalore, India* <br />
   - Working on a project called &nbsp;
     ​<a href="https://github.com/redhat-developer/service-binding-operator/issues?q=is%3Aall+author%3Apratikjagrut+" target="_blank" style="color:blue;">
