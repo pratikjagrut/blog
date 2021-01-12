@@ -1,7 +1,7 @@
 ---
 title: "Golang"
 description: "Index page"
-date: 2021-01-11T23:42:37+05:30
+date: 2021-01-12T13:44:05+05:30
 draft: false
 author: "Pratik Jagrut"
 layout: "blog"
@@ -64,4 +64,8 @@ tags:
 
 * <a href="/blog/golang/range">
       <span style="color:Green; text-transform: uppercase;" class="fab">Range</span>
+  </a> &emsp;
+
+* <a href="/blog/golang/functions">
+      <span style="color:Green; text-transform: uppercase;" class="fab">Functions</span>
   </a> &emsp;

@@ -121,11 +121,11 @@ In the above example, I try to increment all the values of the slice by 1 but th
   </b>
 </a>  &emsp;
 
-<!-- <a href="/blog/golang/">
+<a href="/blog/golang/functions">
     <b style="color:DodgerBlue">
-        <i> 🡆</i>
+        <i>Functions 🡆</i>
     </b>
-</a>  &emsp; -->
+</a>  &emsp;
 
 <br>
 
