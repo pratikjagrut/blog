@@ -6,7 +6,7 @@ title                   = "Pratik Jagrut"
 theme                   = "hugo-future-imperfect-slim"
 paginate                = 4
 disqusShortname         = ""
-googleAnalytics         = ""
+googleAnalytics         = "G-LVJQRTBLSX"
 pluralizeListTitles     = false
 disableLanguages        = []
 
