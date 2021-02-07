@@ -1,7 +1,7 @@
 ---
 title: "Golang"
 description: "Index page"
-date: 2021-01-13T13:12:48+05:30
+date: 2021-02-07T18:23:45+05:30
 draft: false
 author: "Pratik Jagrut"
 layout: "blog"
@@ -72,4 +72,8 @@ tags:
 
 * <a href="/blog/golang/anonymous_func">
       <span style="color:Green; text-transform: uppercase;" class="fab">Anonymous Function</span>
+  </a> &emsp;
+
+* <a href="/blog/golang/closures">
+      <span style="color:Green; text-transform: uppercase;" class="fab">Closures</span>
   </a> &emsp;

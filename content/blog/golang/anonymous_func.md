@@ -1,6 +1,6 @@
 ---
 title: "Anonymous Function"
-date: 2021-01-13T13:08:36+05:30
+date: 2021-02-07T18:22:14+05:30
 draft: false
 author: "Pratik Jagrut"
 layout: "blog"
@@ -159,11 +159,11 @@ fmt.Println(c("Jack"))
   </b>
 </a>  &emsp;
 
-<!-- <a href="/blog/golang/">
+<a href="/blog/golang/closures">
     <b style="color:DodgerBlue">
-        <i> 🡆</i>
+        <i>Closures 🡆</i>
     </b>
-</a>  &emsp; -->
+</a>  &emsp;
 
 <br>
 
