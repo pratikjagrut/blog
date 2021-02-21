@@ -69,6 +69,18 @@ disableLanguages        = []
   [params.footer]
     rssFooter           = false
     socialFooter        = true
+  
+  # [params.staticman]
+  #   enabled             = true
+  #   api                 = ""  # No Trailing Slash
+  #   gitProvider         = ""
+  #   username            = ""
+  #   repo                = ""
+  #   branch              = ""
+
+  #   [params.staticman.recaptcha]
+  #     siteKey           = ""
+  #     encryptedKey      = ""
 
 [menu]
 

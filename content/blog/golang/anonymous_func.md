@@ -1,6 +1,6 @@
 ---
 title: "Anonymous Function"
-date: 2021-02-07T18:22:14+05:30
+date: 2021-02-14T19:07:57+05:30
 draft: false
 author: "Pratik Jagrut"
 layout: "blog"
