@@ -1,0 +1,63 @@
+## Pass by value vs Pass by pointer
+
+When we write a function we decide parameters to be passed `by-value` or `by-pointer`.
+
+**Pass by value**
+
+Every time variable is passed as parameter the new copy of that variable is created and passed to function. This copy has different memory location hence any changed to this copy will nor affect original variable. 
+
+In below example we pass parameter by value.
+
+```
+package main
+
+import "fmt"
+
+func add(i int) {
+	i = i + 10
+	fmt.Println("Variable copy from add function:", i)
+}
+
+func main() {
+	i := 10
+	fmt.Println("Original variable:", i)
+	add(i)
+	fmt.Println("Original variable:", i)
+}
+```
+
+```
+Original variable: 10
+Variable copy from add function: 20
+Original variable: 10
+```
+
+**Pass by Pointer**
+
+When we pass parameter by-pointer Go makes the copy of that pointer to the new location. This pointer copy has same memory address stored in it hence it is pointing to the original variable and any changes done using this pointer will change the value of original variable.
+
+```
+package main
+
+import "fmt"
+
+func add(i *int) {
+	*i = *i + 10
+	fmt.Println("Variable copy from add function:", *i)
+}
+
+func main() {
+	i := 10
+	fmt.Println("Original variable:", i)
+	add(&i)
+	fmt.Println("Original variable:", i)
+}
+```
+
+```
+Original variable: 10
+Variable copy from add function: 20
+Original variable: 20
+```
+
+*In some way we can say pass by-pointer is an implementation of pass by-value.*

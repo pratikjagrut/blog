@@ -149,11 +149,11 @@ func main() {
   </b>
 </a>  &emsp;
 
-<!-- <a href="/blog/golang/">
+<a href="/blog/golang/pointers">
     <b style="color:DodgerBlue">
-        <i> 🡆</i>
+        <i>Pointers 🡆</i>
     </b>
-</a>  &emsp; -->
+</a>  &emsp;
 
 <br>
 
