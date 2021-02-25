@@ -10,6 +10,7 @@ tags:
   - "golang"
   - "programming"
 ---
+***<a href="" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
 
 ***You can refer <a href="" style="color:DodgerBlue" target="_blank">main.go</a> file for examples***
 
