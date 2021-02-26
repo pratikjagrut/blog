@@ -96,7 +96,7 @@ panic: runtime error: invalid memory address or nil pointer dereference
 
 We can pass a pointer to the function as we pass other variables. We can create a pointer to the variable and then pass it to the function or we can just pass an address of that variable using `&`.
 
-In the below example we initialize a variable i with the value 10. We've function `addTen(i *int)` which takes a pointer as an argument and then it adds 10 by dereferencing the pointer hence mutating the original value. Below are shown both the ways of passing pointer the function.
+In the below example we initialize a variable i with the value 10. We've function `addTen(i *int)` which takes a pointer as an argument and then it adds 10 by dereferencing the pointer hence mutating the original value.
 
 ```
 package main
@@ -111,9 +111,9 @@ func main() {
   i := 10
   p := &i
   fmt.Println(i)
-  addTen(p) // Pass by pointer
+  addTen(p) // Pass a pointer
   fmt.Println(i)
-  addTen(&i) // Pass by address
+  addTen(&i) // Pass address using & operator
   fmt.Println(i)
 }
 ```
@@ -218,7 +218,7 @@ func main() {
 }
 ```
 
-In the above example, we're creating a map and passing it to the modify function. With the general look, it seems like we're passing an argument by-value because we're not passing the address of map m using &. So this means the copy of map m should be created and the original map is untouched. But if we run this we get an output as follows.
+In the above example, we're creating a map and passing it to the modify function. With the cursory look, it seems like we're passing an argument by-value because we're not passing the address of map m using & or by creating a pointer to map m. So this means the copy of map m should be created and the original map is untouched. But if we run this we get an output as follows.
 
 ```
 Original map:  map[1:1 2:2 3:3]
@@ -233,7 +233,7 @@ When we create a map using `m := make(map[int]int)` the compiler makes call to t
 
 So as we see, the return type of runtime.makemap is a pointer to the `runtime.hmap structure`. So when we passed a map to the function we actually passed a pointer to the runtime.hmap structure of map m and hence the original map was modified.
 
-Instead of map if we try above program using slice we will get the similar output because slice variable stores the pointer to underlying array. ***<a href="/blog/golang/array_slice" style="color:DodgerBlue" target="_blank">Read more about Arrays and Slices here.</a>***
+Instead of map if we try above program using slice we will get the similar output because slice variable stores the pointer to underlying array ***<a href="/blog/golang/array_slice" style="color:DodgerBlue" target="_blank">read more about it here.</a>***
 
 ***<a href="https://play.golang.org/p/ORs5UkdECmS" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
 
