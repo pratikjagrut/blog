@@ -233,7 +233,7 @@ When we create a map using `m := make(map[int]int)` the compiler makes call to t
 
 So as we see, the return type of runtime.makemap is a pointer to the `runtime.hmap structure`. So when we passed a map to the function we actually passed a pointer to the runtime.hmap structure of map m and hence the original map was modified.
 
-Instead of map if we try above program using slice we will get the similar output because slice variable stores the pointer to underlying array ***<a href="/blog/golang/array_slice" style="color:DodgerBlue" target="_blank">read more about Array and Slices here.</a>***
+Instead of map if we try above program using slice we will get the similar output because slice variable stores the pointer to underlying array ***<a href="/blog/golang/array_slice" style="color:DodgerBlue" target="_blank">read more about Arrays and Slices here.</a>***
 
 ***<a href="https://play.golang.org/p/ORs5UkdECmS" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
 
