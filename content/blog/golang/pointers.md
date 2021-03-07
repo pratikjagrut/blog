@@ -237,6 +237,7 @@ Instead of map if we try above program using slice we will get the similar outpu
 
 ***<a href="https://play.golang.org/p/ORs5UkdECmS" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
 
+***Thank you for reading this blog please give your feedback in the comment section below.***
 <hr>
 
 <a href="/blog/golang/closures">
@@ -251,11 +252,11 @@ Instead of map if we try above program using slice we will get the similar outpu
   </b>
 </a>  &emsp;
 
-<!-- <a href="/blog/golang/">
+<a href="/blog/golang/structs_part_1">
     <b style="color:DodgerBlue">
-        <i> 🡆</i>
+        <i>Structs part-1 🡆</i>
     </b>
-</a>  &emsp; -->
+</a>  &emsp;
 
 <br>
 

@@ -14,6 +14,7 @@ tags:
 
 ***You can refer <a href="" style="color:DodgerBlue" target="_blank">main.go</a> file for examples***
 
+***Thank you for reading this blog please give your feedback in the comment section below.***
 <hr>
 
 <a href="/blog/golang/">

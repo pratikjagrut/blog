@@ -1,7 +1,7 @@
 ---
 title: "Golang"
 description: "Index page"
-date: 2021-02-26T16:49:32+05:30
+date: 2021-03-04T22:05:18+05:30
 draft: false
 author: "Pratik Jagrut"
 layout: "blog"
@@ -80,4 +80,12 @@ tags:
 
 * <a href="/blog/golang/pointers">
       <span style="color:Green; text-transform: uppercase;" class="fab">Pointers</span>
+  </a> &emsp;
+
+* <a href="/blog/golang/structs_part_1">
+      <span style="color:Green; text-transform: uppercase;" class="fab">Structs Part-1</span>
+  </a> &emsp;
+
+* <a href="/blog/golang/structs_part_2">
+      <span style="color:Green; text-transform: uppercase;" class="fab">Structs Part-2</span>
   </a> &emsp;
