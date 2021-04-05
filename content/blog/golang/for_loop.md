@@ -65,10 +65,8 @@ func main() {
 	for i := 0; i < 5; i++ {fmt.Printf("Iteration number: %d\n", i)}
 }
 ```
-
+***<a href="https://play.golang.org/p/OysJvNK3rNz" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
 ```
-go run main.go
-
 Iteration number: 0
 Iteration number: 1
 Iteration number: 2
@@ -76,8 +74,7 @@ Iteration number: 3
 Iteration number: 4
 ```
 
-***You can refer <a href="https://github.com/pratikjagrut/go-tutorial/tree/master/03_for_loop/main.go" style="color:DodgerBlue" target="_blank">main.go</a> file for examples***
-
+***Thank you for reading this blog please give your feedback in the comment section below.***
 <hr>
 
 <a href="/blog/golang/vdc">

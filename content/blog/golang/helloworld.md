@@ -60,7 +60,9 @@ go run main.go
 
 Hello, World!
 ```
+***<a href="https://play.golang.org/p/FAszkU0xQZo" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
 
+***Thank you for reading this blog please give your feedback in the comment section below.***
 <hr>
 
 <a href="/blog/golang/introduction">

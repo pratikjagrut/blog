@@ -30,18 +30,68 @@ The above m is a map of int keys to string values.
 
 Maps are reference types such as slices. So uninitialized maps value is nil i.e the zero value of the map is `nil`. The nil map has no keys and we can not add any key to it because it does not point to any initialized map. Trying to add a key to nil map will throw `panic: assignment to entry in nil map` error.
 
+```
+package main
+
+import "fmt"
+
+func main() {
+	var m map[int]string
+	fmt.Printf("%T\n", m)
+	fmt.Println(m)
+  	m[1] = "one"
+}
+```
+```
+map[int]string
+map[]
+panic: assignment to entry in nil map
+
+goroutine 1 [running]:
+main.main()
+	/tmp/sandbox272715404/prog.go:9 +0x107
+```
+***<a href="https://play.golang.org/p/V_CiNrkv9gN" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+
+
 So to get an initialized and ready to use map use `make` function.
 
 ```
-m = make(map[int]string)
+package main
+
+import "fmt"
+
+func main() {
+	m := make(map[int]string)
+	fmt.Printf("%T\n", m)
+	fmt.Println(m)
+	m[1] = "one"
+	fmt.Println(m)
+}
 ```
+```
+map[int]string
+map[]
+map[1:one]
+```
+***<a href="https://play.golang.org/p/wBiLI4qulzY" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+
 In the background make function assigns and initializes hash map data structure and returns map value which points to the hash map.
 
 **Map literal**
 
 ```
-n := map[string]int{"foo": 0, "bar": 1}
+package main
+
+import "fmt"
+
+func main() {
+	m := map[string]int{"foo": 0, "bar": 1}
+	fmt.Printf("%T\n", m)
+	fmt.Println(m)
+}
 ```
+***<a href="https://play.golang.org/p/PgpzaAp2X7q" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
 
 ## Working with the maps
 
@@ -109,8 +159,60 @@ for key, value := range m {
 
 While iterating over the map the iteration order is not specific, you may get different iteration order next time you iterate.
 
-***You can refer <a href="https://github.com/pratikjagrut/go-tutorial/blob/master/08_map/main.go" style="color:DodgerBlue" target="_blank">main.go</a> file for examples***
+```
+package main
 
+import "fmt"
+
+func main() {
+	// **Create a map using make function**
+	m := make(map[string]int)
+
+	// **Add key-value pair**
+	m["one"] = 1
+	fmt.Println("Value of m: ", m)
+
+	// Update
+	m["one"] = 2
+	fmt.Println("Updated value of m: ", m)
+	fmt.Println()
+
+	// **Read a value**
+	i := m["one"]
+	fmt.Println("Value of i", i)
+
+	// Key not present
+	j := m["two"]
+	fmt.Println("Value of j: ", j)
+	fmt.Println()
+
+	// check if the key is present
+	key, ok := m["three"]
+	fmt.Println(key, ok)
+
+	// Without retrieving the value.
+	_, k := m["three"]
+	fmt.Println(k)
+	fmt.Println()
+
+	// **Delete value**
+	delete(m, "one")
+	fmt.Println("Value of m after deletion: ", m)
+	fmt.Println()
+
+	// **Iterating over the values in maps**
+	m["one"] = 1
+	m["two"] = 2
+	m["three"] = 3
+	fmt.Println("Iterate over map")
+	for key, value := range m {
+		fmt.Println("Key:", key, "Value:", value)
+	}
+}
+```
+***<a href="https://play.golang.org/p/rT3ajhAyenr" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+
+***Thank you for reading this blog please give your feedback in the comment section below.***
 <hr>
 
 <a href="/blog/golang/array_slice">

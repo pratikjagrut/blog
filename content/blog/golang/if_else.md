@@ -38,7 +38,7 @@ func main(){
   }
 }
 ```
-
+***<a href="https://play.golang.org/p/YO_-cELIUii" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
 ### If-Else statement in Go
 
 ```
@@ -65,31 +65,46 @@ func main(){
   }
 }
 ```
+***<a href="https://play.golang.org/p/Fj2fjOaeNZy" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
 
 ### if-else-if ladder
 
 We can use multiple conditional statement at once which.
 
 ```
-if i == 0 {
+package main
+
+import "fmt"
+
+func main(){
+  i := -11
+  if i == 0 {
     fmt.Println("It's zero")
 } else if i < 0 {
     fmt.Println("Negative number")
 } else {
     fmt.Println("Positive number")
 }
+}
 ```
+***<a href="https://play.golang.org/p/kL1RyoKUzF-" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
 
 ### If with a short statement
 
 ```
-if j := 10; j%2 == 0 {
-	fmt.Println("Even number")
+package main
+
+import "fmt"
+
+func main() {
+	if j := 10; j%2 == 0 {
+		fmt.Println("Even number")
+	}
 } 
 ```
+***<a href="https://play.golang.org/p/f6SyTAE1Rtz" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
 
-***You can refer <a href="https://github.com/pratikjagrut/go-tutorial/blob/master/04_if_else/main.go" style="color:DodgerBlue" target="_blank">main.go</a> file for examples***
-
+***Thank you for reading this blog please give your feedback in the comment section below.***
 <hr>
 
 <a href="/blog/golang/for_loop">

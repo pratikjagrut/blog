@@ -25,25 +25,19 @@ package main
 import "fmt"
 
 func main() {
-  hit := 0
+	hit := 0
 
-  counter := func() int {
-    hit += 1 
-    return hit
-  }
+	counter := func() int {
+		hit += 1
+		return hit
+	}
 
-  fmt.Println(counter())
-  fmt.Println(counter())
-  fmt.Println(counter())
+	fmt.Println(counter())
+	fmt.Println(counter())
+	fmt.Println(counter())
 }
-
 ```
-
-```
-1
-2
-3
-```
+***<a href="https://play.golang.org/p/RT9Pm82Kf3p" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
 
 In the above example, we bound the closure to `hit` variable which is not passed to it but accessed as a global variable.
 
@@ -55,26 +49,21 @@ package main
 import "fmt"
 
 func main() {
-  counter := Counter()
-  fmt.Println(counter())
-  fmt.Println(counter())
-  fmt.Println(counter())
+	counter := Counter()
+	fmt.Println(counter())
+	fmt.Println(counter())
+	fmt.Println(counter())
 }
 
 func Counter() func() int {
-  hit := 0
-  return func() int {
-    hit++
-  return hit
-  }
+	hit := 0
+	return func() int {
+		hit++
+		return hit
+	}
 }
 ```
-
-```
-1
-2
-3
-```
+***<a href="https://play.golang.org/p/s5THHqJzD-Y" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
 
 In the above example closure is bound to or references to the `hit` variable which is still can be accessed after the function call. This means closure has access to the data and no other function has access to it and hence this data can be tracked and isolated. This is one of the benefits of closure.
 
@@ -90,23 +79,23 @@ package main
 import "fmt"
 
 func fibonacci() func() int {
-  n1 := 0
-  n2 := 1
-  return func() int {
-    n1, n2 = n2, (n1+n2)
-    return n1
-  }
+	n1 := 0
+	n2 := 1
+	return func() int {
+		n1, n2 = n2, (n1 + n2)
+		return n1
+	}
 }
 
 func main() {
-  f := fibonacci()
-  fmt.Println(0)
-  for i := 0; i < 10; i++ {
-    fmt.Println(f())
-  }
+	f := fibonacci()
+	fmt.Println(0)
+	for i := 0; i < 10; i++ {
+		fmt.Println(f())
+	}
 }
 ```
-
+***<a href="https://play.golang.org/p/hvidcU6RkeY" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
 
 ### Search in sorting package
 
@@ -120,21 +109,23 @@ func Search(n int, f func(int) bool) int
 package main
 
 import (
-  "fmt"
-  "sort"
+	"fmt"
+	"sort"
 )
 
 func main() {
-  nums := []int{1, 3, 6, 8, 10, 15, 21, 28, 36, 45, 55}
-  x := 8
+	nums := []int{1, 3, 6, 8, 10, 15, 21, 28, 36, 45, 55}
+	x := 8
 
-  i := sort.Search(len(nums), func(i int) bool {
-      return nums[i] >= x 
-    })
-  fmt.Printf("Index of %d is %d", x, i)
+	i := sort.Search(len(nums), func(i int) bool {
+		return nums[i] >= x
+	})
+	fmt.Printf("Index of %d is %d", x, i)
 }
 ```
+***<a href="https://play.golang.org/p/FQIjK3s6whR" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
 
+***Thank you for reading this blog please give your feedback in the comment section below.***
 <hr>
 
 <a href="/blog/golang/anonymous_func">

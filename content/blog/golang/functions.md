@@ -35,6 +35,21 @@ Calling the function is pretty easy.
 sayCheeze()
 ```
 
+```
+package main
+
+import "fmt"
+
+func sayCheeze() {
+	fmt.Println("Cheeeeeeeeeeeeze")
+}
+
+func main() {
+	sayCheeze()
+}
+```
+***<a href="https://play.golang.org/p/sz4RmqzeqZZ" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+
 ### You may pass input parameters
 
 ```
@@ -52,10 +67,19 @@ addition(1, 2)
 When two or more consecutive parameters have the same type we can omit the type from all but last.
 
 ```
+package main
+
+import "fmt"
+
 func addition(i, j, k int) {
-  fmt.Println(i + j + k)
+	fmt.Println(i + j + k)
+}
+
+func main() {
+	addition(10, 20, 30)
 }
 ```
+***<a href="https://play.golang.org/p/Hd3WlDtdSbI" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
 
 ### You may define the return type of function
 
@@ -71,25 +95,41 @@ sum := addition(1, 2, 3)
 A function can return any number of results.
 
 ```
+package main
+
+import "fmt"
+
 func addition(i, j int) (int, int, int) {
-   return i, j, i + j
+	return i, j, i + j
+}
+
+func main() {
+	a, b, sum := addition(1, 2)
+	fmt.Println(a, b, sum)
 }
 ```
-```
-a, b, sum := addition(1, 2)
-```
+***<a href="https://play.golang.org/p/hqkVQEkp_Ik" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
 
 ### Named return values
 
 Go's return values may be named. The named return values are treated as locally defined variables in the function.
 
 ```
-func calc(i int) (x, y int) {
-    x = i / 10
-    y = i % 10
-    return
+package main
+
+import "fmt"
+
+func division(i int) (quotient, remainder int) {
+	quotient = i / 10
+	remainder = i % 10
+	return
+}
+func main() {
+	quotient, remainder := division(125)
+	fmt.Printf("Quotient: %d and Remainder: %d", quotient, remainder)
 }
 ```
+***<a href="https://play.golang.org/p/4mOb0aPX7B2" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
 
 ### Variadic functions
 
@@ -97,21 +137,25 @@ Variadic functions can be called with any number of trailing arguments.
 For example, `fmt.Println` is a common variadic function.
 
 ```
+package main
+
+import "fmt"
+
 func total(nums ...int) (total int) {
-    for _, i := range nums {
-        total += i
-    }
-    return total
+	for _, i := range nums {
+		total += i
+	}
+	return total
+}
+
+func main() {
+	fmt.Println(total(1, 2, 3, 4, 5))
+	fmt.Println(total(1, 2, 3, 4, 5, 6, 7, 8, 9, 10))
 }
 ```
-Function call
-```
-total := total(1, 2, 3, 4, 5)
-total = total(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
-```
+***<a href="https://play.golang.org/p/g0EkydaW9k2" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
 
-***You can refer <a href="https://github.com/pratikjagrut/go-tutorial/blob/master/10_functions/main.go" style="color:DodgerBlue" target="_blank">main.go</a> file for examples***
-
+***Thank you for reading this blog please give your feedback in the comment section below.***
 <hr>
 
 <a href="/blog/golang/range">
