@@ -10,9 +10,6 @@ tags:
   - "golang"
   - "programming"
 ---
-
-<a href="/blog/golang/structs_part_1"><b style="color:DodgerBlue"><i>🡄 Structs part-1</i></b></a>
-
 ## Nested Structs
 
 Golang allows us to use struct as a field of another struct, this pattern is called nesting. A nested struct can be defined using the following syntax.
