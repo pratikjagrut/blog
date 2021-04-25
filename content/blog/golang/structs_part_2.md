@@ -334,7 +334,7 @@ func main() {
 }
 ```
 ***<a href="https://play.golang.org/p/R1nK7gPUcrt" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
-## Structs and methods/reciever function
+## Structs and methods/receiver function
 
 Golang supports both function and method. A method is a function that is defined for a particular type or with a receiver. A method in Golang also called a receiver function. Following is the example.
 
@@ -531,11 +531,11 @@ Name of friends character:  Joey Tribbiani
   </b>
 </a>  &emsp;
 
-<!-- <a href="/blog/golang/">
+<a href="/blog/golang/interface_part_1">
     <b style="color:DodgerBlue">
-        <i> 🡆</i>
+        <i>Interface Part-1 🡆</i>
     </b>
-</a>  &emsp; -->
+</a>  &emsp;
 
 <br>
 

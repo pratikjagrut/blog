@@ -1,7 +1,7 @@
 ---
 title: "Golang"
 description: "Index page"
-date: 2021-03-04T22:05:18+05:30
+date: 2021-04-25T11:15:00+05:30
 draft: false
 author: "Pratik Jagrut"
 layout: "blog"
@@ -88,4 +88,12 @@ tags:
 
 * <a href="/blog/golang/structs_part_2">
       <span style="color:Green; text-transform: uppercase;" class="fab">Structs Part-2</span>
+  </a> &emsp;
+
+* <a href="/blog/golang/interface_part_1">
+      <span style="color:Green; text-transform: uppercase;" class="fab">Interface Part-1</span>
+  </a> &emsp;
+
+* <a href="/blog/golang/interface_part_2">
+      <span style="color:Green; text-transform: uppercase;" class="fab">Interface Part-2</span>
   </a> &emsp;
