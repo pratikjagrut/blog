@@ -14,3 +14,6 @@ categories:
 tags:
   - ""
 ---
+
+***Thank you for reading this blog please give your feedback in the comment section below.***
+<hr>
