@@ -46,50 +46,90 @@ package main
 
 import "fmt"
 
-type Day string
+type Person struct {
+    name    string
+    age     int
+    address Address
+}
 
-func (day Day) String() string {
-    return string(day)
+type Address struct {
+    city, country string
+    pincode       int
+}
+
+func (p Person) String() string {
+    return fmt.Sprintf("My name is '%s', I'm '%d' years old, I love in '%s', '%s'", p.name, p.age, p.address.city, p.address.country)
 }
 
 func main() {
-    var day Day
-    day = "Monday"
-    fmt.Println("The day is ", day.String())
+    person := Person{
+        name: "James Bond",
+        age:  34,
+        address: Address{
+            city:    "London",
+            pincode: 123456,
+            country: "UK",
+        },
+    }
+
+    address := Address{
+        city:    "London",
+        country: "UK",
+        pincode: 123456,
+    }
+
+    fmt.Println(person)
+    fmt.Println(address)
 }
 ```
-***<a href="https://play.Golang.org/p/XCUokhp2VfZ" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+```
+My name is 'James Bond', I'm '34' years old, I love in 'London', 'UK'
+{London UK 123456}
+```
+***<a href="https://play.golang.org/p/0C_8uGzb04A" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+
+In the above example, we've two structs one is `Person` and the other one is `Address` and 
+only the `Person` struct implements the `Stringer` interface by implementing the `String()` method because of which we could print the custom string format output.
+
+Notice the output, the `person` variable has its custom string and the `address` variable prints output in curly braces.
 
 Once a type implements an interface then the method implemented by that type can also be called using interface variable.
 
 ```
 package main
 
-import "fmt"
+import (
+    "fmt"
+)
 
-type Day string
+type Shape interface {
+    Area()
+}
 
-func (day Day) String() string {
-    return string(day)
+type Square struct {
+    side int
+}
+
+func (s Square) Area() {
+    fmt.Printf("Area of the square is %d\n", s.side*s.side)
 }
 
 func main() {
-    var day Day
-    day = "Monday"
-    fmt.Println("The day is", day.String())
-
-    var day1 Day = "Tuesday"
-    var s fmt.Stringer = day1
-    fmt.Println("The day is", s.String())
+    sq := Square{
+        side: 10,
+    }
+    var sh Shape = sq
+    sq.Area()
+    sh.Area()
 }
 ```
 ```
-The day is Monday
-The day is Tuesday
+Area of the square is 100
+Area of the square is 100
 ```
-***<a href="https://play.golang.org/p/6TgX_V_o5Xu" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/cQmfCtE3GMC" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
 
-In the above program, type `Day` is implementing `fmt.Stringer` interface. In the main function, we call the implemented `string` method on the `day` variable which is of type `Day` and on the `s` variable which is of type `fmt.Stringer` interface and the program still works fine.
+In the above program, type `Square` is implementing the `Shape` interface. In the main function, we call the implemented method `Area` on variable `sq` of type `Square` and on variable `sh` of type `Shape` interface and the program still works fine.
 
 ## Interface's types and values
 
@@ -156,7 +196,6 @@ This means when a particular type implements an interface then the variable of t
 The type and value of the interface depend on the type and which implements that interface. 
 Sometimes the concrete type and value of an interface are also called dynamic type and value.
 We call it dynamic because we can assign any type to the interface as long as that type implements the interface.
-
 
 ### Zero Value of an interface
 
