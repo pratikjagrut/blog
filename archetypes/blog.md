@@ -9,6 +9,7 @@ images:
   - src: ""
     alt: ""
     stretch: ""
+    # removeBlur: true/false
 categories:
   - ""
 tags:
