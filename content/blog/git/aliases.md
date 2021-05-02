@@ -256,6 +256,27 @@ We can define two types of aliases in Git.
   * f47c1c6 2021-05-01 - Update theme [Pratik Jagrut]
   ```
 
+***Here's the .gitconfig file for all the above aliases.***
+```dockerfile
+[alias]
+  st = status
+  pl = pull
+  plo = pull origin
+  plom = pull origin main
+  co = checkout
+  cnb = checkout -b
+  br = branch
+  a = add
+  aa = add .
+  ci = commit
+  p = push
+  po = push origin
+  pom = push origin main
+  lg = log --stat
+  lgdr = log --graph --pretty=format:'%Cred%h%Creset %Cgreen%cr%Creset -%C(yellow)%d%Creset %s %C(bold blue)[%cn]%Creset' --abbrev-commit --date=relative
+  lgds = log --graph --pretty=format:'%Cred%h%Creset %Cgreen%cd%Creset -%C(yellow)%d%Creset %s %C(bold blue)[%cn]%Creset' --abbrev-commit --date=short
+```
+
 <b style="color:#3269a8"><i>These were some of the aliases from my list, you can make more aliases for sub-commands like branch, remote, diff, config, etc...</i></b>
 
 ## Conclusion
