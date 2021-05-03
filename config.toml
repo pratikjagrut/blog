@@ -31,7 +31,7 @@ disableLanguages        = []
   hideEmptyStats        = false
 
   [params.meta]
-    description         = "Portfolio and Blog"
+    description         = "Blog"
     author              = "Pratik Jagrut"
     favicon             = false
     svg                 = true
