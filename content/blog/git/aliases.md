@@ -16,7 +16,7 @@ tags:
   - "git"
   - "programming"
 ---
-Git is the most widely used ***`Version Control System (VCS)`*** or ***`Source Code Management(CMS)`*** software.
+Git is the most widely used ***`Version Control System (VCS)`*** or ***`Source Code Management(SCM)`*** software.
 It is a day-to-day go-to tool for many of the developers out there.
 And many developers use terminal/command line to operate it.
 
