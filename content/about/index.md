@@ -14,7 +14,15 @@ Pratik is also very enamoured of outdoor activities. He likes to play European f
 
 Click **[here]({{< ref "/resume" >}} "Resume")** to know more about him.
 
-<a href="http://github.com/pratikjagrut" target="_blank">
+### Reach me @
+
+[![Github Badge](https://img.shields.io/badge/-github-black?style=for-the-badge&logo=github&logoColor=white)][github] &emsp;
+[![Twitter Badge](https://img.shields.io/badge/-twitter-1ca0f1?style=for-the-badge&logo=twitter&logoColor=white&link=https://twitter.com/)][twitter] &emsp;
+[![Linkedin Badge](https://img.shields.io/badge/-linkedin-0e76a8?style=for-the-badge&logo=linkedin&logoColor=white)][linkedin] &emsp;
+[![Mail Badge](https://img.shields.io/badge/-emailme-c0392b?style=for-the-badge&logo=gmail&logoColor=white)][mailto] &emsp;
+[![Facebook Badge](https://img.shields.io/badge/-faceboook-blue?style=for-the-badge&logo=facebook&logoColor=white)][facebook] &emsp;
+
+<!-- <a href="http://github.com/pratikjagrut" target="_blank">
     <h5 style="color:green;" class="fab fa-github">Github</h5>
 </a> &emsp;
 
@@ -31,6 +39,12 @@ Click **[here]({{< ref "/resume" >}} "Resume")** to know more about him.
  </a> &emsp;
 
 <a href="mailto:jagrut.pratik@gmail.com" target="_blank" style="color:green;">
-    <h5 style="color:green;" class="far fa-envelope">Email</h5>
+    <h5 style="color:green;" class="far fa-envelope">Email</h5> -->
 </a>
  
+[website]: https://pratikjagrut.dev/
+[twitter]: https://twitter.com/pratikjagrut
+[linkedin]: https://www.linkedin.com/in/pratikjagrut
+[mailto]: mailto:jagrut.pratik@gmail.com
+[github]: https://github.com/pratikjagrut
+[facebook]: https://www.facebook.com/jagrutpratik
