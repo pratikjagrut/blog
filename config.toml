@@ -112,12 +112,19 @@ disableLanguages        = []
     pre               = "<i class='fas fa-sitemap'></i>"
     weight            = 5
 
+    [[menu.main]]
+    name              = "Tags"
+    identifier        = "tags"
+    url               = "/tags/"
+    pre               = "<i class='fas fa-sitemap'></i>"
+    weight            = 6
+
   [[menu.main]]
     name              = "Resume"
     identifier        = "resume"
     url               = "/resume/"
     pre               = "<i class='far fa-id-card'></i>"
-    weight            = 6
+    weight            = 7
 
 [social]
   # Coding Communities

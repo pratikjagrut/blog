@@ -9,6 +9,7 @@ categories:
 tags:
   - "golang"
   - "programming"
+  - "2021"
 ---
 In Golang, an interface is a set of method signatures. When any type defines all the methods from an interface then that type implements the interface. So we can state that interface defines the behaviour of the object/type.
 
@@ -86,7 +87,7 @@ func main() {
 My name is 'James Bond', I'm '34' years old, I love in 'London', 'UK'
 {London UK 123456}
 ```
-***<a href="https://play.golang.org/p/0C_8uGzb04A" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/0C_8uGzb04A" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 In the above example, we've two structs one is `Person` and the other one is `Address` and 
 only the `Person` struct implements the `Stringer` interface by implementing the `String()` method because of which we could print the custom string format output.
@@ -127,7 +128,7 @@ func main() {
 Area of the square is 100
 Area of the square is 100
 ```
-***<a href="https://play.golang.org/p/cQmfCtE3GMC" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/cQmfCtE3GMC" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 In the above program, type `Square` is implementing the `Shape` interface. In the main function, we call the implemented method `Area` on variable `sq` of type `Square` and on variable `sh` of type `Shape` interface and the program still works fine.
 
@@ -181,7 +182,7 @@ Value of Int is 10
 Concrete type of an interface is main.Float
 Value of Float is 15.000500
 ```
-***<a href="https://play.Golang.org/p/9_yZVvc3gsa" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.Golang.org/p/9_yZVvc3gsa" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 In the above program:
 
@@ -217,7 +218,7 @@ func main() {
 The concrete type of a nil interface is <nil>
 The concrete value of a nil interface is <nil>
 ```
-***<a href="https://play.golang.org/p/8GKGXSwOEOw" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/8GKGXSwOEOw" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 If we try to call a method on a nil interface, the program will panic.
 
@@ -245,7 +246,7 @@ goroutine 1 [running]:
 main.main()
     /tmp/sandbox117008893/prog.go:13 +0x23
 ```
-***<a href="https://play.golang.org/p/9KwItPMGxWD" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/9KwItPMGxWD" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 The error pretty much is self-explanatory. The underlying concrete value and type are nil so the method can not be called on that object.
 
@@ -286,7 +287,7 @@ string
 float64
 bool
 ```
-***<a href="https://play.Golang.org/p/m6GMNMIBAUo" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.Golang.org/p/m6GMNMIBAUo" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 The function `getType(s interface{})` accepts an empty interface as an argument hence we were able to pass any type of variable to the function.
 
@@ -348,7 +349,7 @@ func main() {
 Area of the square is 100
 true
 ```
-***<a href="https://play.Golang.org/p/1alfdI_h-DW" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.Golang.org/p/1alfdI_h-DW" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 In the above example, we've two interfaces `Shape` and `Quadrilateral`. Type `square` implements both interfaces. The program is easy and self-explanatory.
 
@@ -411,7 +412,7 @@ Number of sides are 4 and dimension of side is 10
 Area of the square is 100
 true
 ```
-***<a href="https://play.Golang.org/p/UOQv16mFLn7" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.Golang.org/p/UOQv16mFLn7" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 In the above example, we have `Shape` and `fmt.Stringer` interfaces which are embedded in the `Quadrilateral` interface.
 The type `square` implements method from `Shape`, `fmt.Stringer` and `Quadrilateral` interfaces.
@@ -421,19 +422,19 @@ After that, we're calling all the method implemented by type `square` using only
 ***Thank you for reading this blog please give your feedback in the comment section below.***
 <hr>
 
-<a href="/blog/golang/structs_part_2">
+<a href="/blog/golang/series/structs_part_2">
   <b style="color:DodgerBlue">
     <i>🡄 Structs Part-2</i>
   </b>
 </a> &emsp;
 
-<a href="/blog/golang/contents">
+<a href="/blog/golang/series/contents">
   <b style="color:DodgerBlue">
     <i>• Contents</i>
   </b>
 </a>  &emsp;
 
-<a href="/blog/golang/interface_part_2">
+<a href="/blog/golang/series/interface_part_2">
     <b style="color:DodgerBlue">
         <i>Interface Part-2 🡆</i>
     </b>

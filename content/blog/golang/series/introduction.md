@@ -9,6 +9,7 @@ categories:
 tags:
   - "golang"
   - "programming"
+  - "2020"
 ---
 
 Go is an open-source, statically typed, compiled programing language built by Google.
@@ -148,13 +149,13 @@ export GOPATH=$HOME/go_workspace
 ***Thank you for reading this blog please give your feedback in the comment section below.***
 <hr>
 
-<a href="/blog/golang/contents">
+<a href="/blog/golang/series/contents">
   <b style="color:DodgerBlue">
     <i>• Contents</i>
   </b>
 </a>  &emsp;
 
-<a href="/blog/golang/helloworld">
+<a href="/blog/golang/series/helloworld">
     <b style="color:DodgerBlue">
         <i>🡆 First program in Go: Hello World</i>
     </b>

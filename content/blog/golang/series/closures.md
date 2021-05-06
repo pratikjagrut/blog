@@ -9,10 +9,11 @@ categories:
 tags:
   - "golang"
   - "programming"
+  - "2021"
 ---
 
 Golang supports anonymous functions which are then used to form closure functions.
-Anonymous functions are function without any name. Before going any further read about ***<a href="/blog/golang/anonymous_func" style="color:DodgerBlue"> anonymous function </a>***.
+Anonymous functions are function without any name. Before going any further read about ***<a href="/blog/golang/series/anonymous_func" style="color:DodgerBlue"> anonymous function </a>***.
 
 The closure is a special type of function value which references variable declared outside its body. The purpose of this function is to close over a variable of upper function to form a closure. The function may access and assign to the referenced variables; in this sense, the function is "bound" to the variables.
 
@@ -37,7 +38,7 @@ func main() {
 	fmt.Println(counter())
 }
 ```
-***<a href="https://play.golang.org/p/RT9Pm82Kf3p" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/RT9Pm82Kf3p" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 In the above example, we bound the closure to `hit` variable which is not passed to it but accessed as a global variable.
 
@@ -63,7 +64,7 @@ func Counter() func() int {
 	}
 }
 ```
-***<a href="https://play.golang.org/p/s5THHqJzD-Y" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/s5THHqJzD-Y" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 In the above example closure is bound to or references to the `hit` variable which is still can be accessed after the function call. This means closure has access to the data and no other function has access to it and hence this data can be tracked and isolated. This is one of the benefits of closure.
 
@@ -95,7 +96,7 @@ func main() {
 	}
 }
 ```
-***<a href="https://play.golang.org/p/hvidcU6RkeY" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/hvidcU6RkeY" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 ### Search in sorting package
 
@@ -123,24 +124,24 @@ func main() {
 	fmt.Printf("Index of %d is %d", x, i)
 }
 ```
-***<a href="https://play.golang.org/p/FQIjK3s6whR" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/FQIjK3s6whR" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 ***Thank you for reading this blog please give your feedback in the comment section below.***
 <hr>
 
-<a href="/blog/golang/anonymous_func">
+<a href="/blog/golang/series/anonymous_func">
   <b style="color:DodgerBlue">
     <i>🡄 Anonymous Function</i>
   </b>
 </a> &emsp;
 
-<a href="/blog/golang/contents">
+<a href="/blog/golang/series/contents">
   <b style="color:DodgerBlue">
     <i>• Contents</i>
   </b>
 </a>  &emsp;
 
-<a href="/blog/golang/pointers">
+<a href="/blog/golang/series/pointers">
     <b style="color:DodgerBlue">
         <i>Pointers 🡆</i>
     </b>

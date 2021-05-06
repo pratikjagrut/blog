@@ -13,6 +13,7 @@ images:
 categories:
   - "git"
 tags:
+  - "2021"
   - "git"
   - "programming"
 ---

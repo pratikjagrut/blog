@@ -9,6 +9,7 @@ categories:
 tags:
   - "golang"
   - "programming"
+  - "2021"
 ---
 
 The range keyword is used to iterate over various data types. It is used in for loops and its return values are dependent on the data types over which we're using range keyword.
@@ -36,7 +37,7 @@ Index :2, value: 3
 Index :3, value: 4
 Index :4, value: 5
 ```
-***<a href="https://play.golang.org/p/WwdJkWeMfpA" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/WwdJkWeMfpA" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 ### Range over maps
 
@@ -59,7 +60,7 @@ Output:
 Key :foo, value: 0
 Key :bar, value: 1
 ```
-***<a href="https://play.golang.org/p/DA_QyJzPFB7" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/DA_QyJzPFB7" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 ### Range over a string
 
@@ -86,7 +87,7 @@ Index :3, Rune value: 97
 Index :4, Rune value: 110
 Index :5, Rune value: 103
 ```
-***<a href="https://play.golang.org/p/lRFYbsOObFc" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/lRFYbsOObFc" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 *Rune int value can be type cast string using string() method. e.g. string(103) == g*
 
@@ -110,7 +111,7 @@ func main() {
 	}
 }
 ```
-***<a href="https://play.golang.org/p/YPHa5RvPGbP" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/YPHa5RvPGbP" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 
 ***\*KEEP IN MIND\****
@@ -138,26 +139,26 @@ Output:
 Slice before range:  [1 2 3 4 5]
 Slice after range:  [1 2 3 4 5]
 ```
-***<a href="https://play.golang.org/p/iGimIFCgcL_J" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/iGimIFCgcL_J" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 In the above example, I try to increment all the values of the slice by 1 but the slice is unaffected. This is because the range loop copies the value from slice to local variable. So to update the slice we'll need to use traditional way `nums[i] += 1`.
 
 ***Thank you for reading this blog please give your feedback in the comment section below.***
 <hr>
 
-<a href="/blog/golang/maps">
+<a href="/blog/golang/series/maps">
   <b style="color:DodgerBlue">
     <i>🡄 Maps</i>
   </b>
 </a> &emsp;
 
-<a href="/blog/golang/contents">
+<a href="/blog/golang/series/contents">
   <b style="color:DodgerBlue">
     <i>• Contents</i>
   </b>
 </a>  &emsp;
 
-<a href="/blog/golang/functions">
+<a href="/blog/golang/series/functions">
     <b style="color:DodgerBlue">
         <i>Functions 🡆</i>
     </b>

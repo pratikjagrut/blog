@@ -9,6 +9,7 @@ categories:
 tags:
   - "golang"
   - "programming"
+  - "2021"
 ---
 
 ## What is Struct?
@@ -58,7 +59,7 @@ main.Person{name:"", age:0}
 ```
 `%#v` a Go-syntax representation of the value.
 
-***<a href="https://play.golang.org/p/APy03otXxrI" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/APy03otXxrI" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 ***Struct literals***
 
@@ -118,7 +119,7 @@ func main() {
     fmt.Printf("%#v\n", p3)
 }
 ```
-***<a href="https://play.golang.org/p/Ec0BcnT7dwg" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/Ec0BcnT7dwg" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 ## Accessing struct fields
 
@@ -160,11 +161,11 @@ Name of the person: Jon Snow
 Age of the person: 24
 Age of the person: 30
 ```
-***<a href="https://play.golang.org/p/jL6nC8aoHZs" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/jL6nC8aoHZs" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 ## Pointer to the struct
 
-<a href="/blog/golang/pointers" style="color:DodgerBlue">Pointers</i></a>  are special variable that stores address of another variable. We can store address of an struct object in pointer by passing the memory address using `&` operator.
+<a href="/blog/golang/series/pointers" style="color:DodgerBlue">Pointers</i></a>  are special variable that stores address of another variable. We can store address of an struct object in pointer by passing the memory address using `&` operator.
 
 ```
 package main
@@ -203,7 +204,7 @@ Age of "James Bond" is "32"
 {Jon Snow 24}
 Age of "Jon Snow" is "24" 
 ```
-***<a href="https://play.golang.org/p/lJYO7n5moq5" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/lJYO7n5moq5" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 In the above program, we're accessing the struct field by dereferencing the pointer `(*ptr).name, (*ptr).age` which reduces the readability and makes a program a little unkempt. The Golang also allow us to access fields of the struct without dereferencing the pointer as shown in the below example.
 
@@ -228,7 +229,7 @@ func main() {
 &{James Bond 32}
 Age of "James Bond" is "32" 
 ```
-***<a href="https://play.golang.org/p/nYCTG9in-ws" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/nYCTG9in-ws" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 In the above program, we're accessing the field using `person.name, person.age`.
 ## Anonymous Struct and anonymous fields
@@ -282,7 +283,7 @@ func main() {
 {James Bond 32}
 &{Jon Snow 24}
 ```
-***<a href="https://play.golang.org/p/1FQzainnKVs" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/1FQzainnKVs" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 ### Anonymous fields
 
@@ -321,9 +322,9 @@ func main() {
 &{James Bond 32}
 Age of "James Bond" is "32"
 ```
+***<a href="https://play.golang.org/p/r5kNOoc1Xb5" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 In above example we access the anonymous fields by using value type as name of the field `person.string, person.int`.
-***<a href="https://play.golang.org/p/r5kNOoc1Xb5" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
 
 ***It is not allowed to define anonymous fields of the same type more than once.***
 
@@ -364,24 +365,24 @@ func main() {
 ```
 &{James Bond 32 Say Hello}
 ```
-***<a href="https://play.golang.org/p/v8qcTOiZVCN" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/v8qcTOiZVCN" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 ***Thank you for reading this blog please give your feedback in the comment section below.***
 <hr>
 
-<a href="/blog/golang/pointers">
+<a href="/blog/golang/series/pointers">
   <b style="color:DodgerBlue">
     <i>🡄 Pointers</i>
   </b>
 </a> &emsp;
 
-<a href="/blog/golang/contents">
+<a href="/blog/golang/series/contents">
   <b style="color:DodgerBlue">
     <i>• Contents</i>
   </b>
 </a>  &emsp;
 
-<a href="/blog/golang/structs_part_2">
+<a href="/blog/golang/series/structs_part_2">
     <b style="color:DodgerBlue">
         <i>Structs part-2 🡆</i>
     </b>

@@ -9,6 +9,7 @@ categories:
 tags:
   - "golang"
   - "programming"
+  - "2020"
 ---
 
 Go has only one looping construct, the `for` loop.
@@ -65,7 +66,7 @@ func main() {
 	for i := 0; i < 5; i++ {fmt.Printf("Iteration number: %d\n", i)}
 }
 ```
-***<a href="https://play.golang.org/p/OysJvNK3rNz" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/OysJvNK3rNz" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 ```
 Iteration number: 0
 Iteration number: 1
@@ -77,19 +78,19 @@ Iteration number: 4
 ***Thank you for reading this blog please give your feedback in the comment section below.***
 <hr>
 
-<a href="/blog/golang/vdc">
+<a href="/blog/golang/series/vdc">
   <b style="color:DodgerBlue">
     <i>🡄 Variables, data types and constants</i>
   </b>
 </a> &emsp;
 
-<a href="/blog/golang/contents">
+<a href="/blog/golang/series/contents">
   <b style="color:DodgerBlue">
     <i>• Contents</i>
   </b>
 </a>  &emsp;
 
-<a href="/blog/golang/if_else">
+<a href="/blog/golang/series/if_else">
     <b style="color:DodgerBlue">
         <i>Conditional Statements 🡆</i>
     </b>

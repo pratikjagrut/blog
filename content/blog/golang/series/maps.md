@@ -9,6 +9,7 @@ categories:
 tags:
   - "golang"
   - "programming"
+  - "2021"
 ---
 
 The map is a collection of key-value pairs. It is an implementation of a Hash Table, which provides Create/Add, Read, Update and Delete operations over the data. Collection of key-value pairs is unordered and each key is unique. 
@@ -51,7 +52,7 @@ goroutine 1 [running]:
 main.main()
 	/tmp/sandbox272715404/prog.go:9 +0x107
 ```
-***<a href="https://play.golang.org/p/V_CiNrkv9gN" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/V_CiNrkv9gN" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 
 So to get an initialized and ready to use map use `make` function.
@@ -74,7 +75,7 @@ map[int]string
 map[]
 map[1:one]
 ```
-***<a href="https://play.golang.org/p/wBiLI4qulzY" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/wBiLI4qulzY" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 In the background make function assigns and initializes hash map data structure and returns map value which points to the hash map.
 
@@ -91,7 +92,7 @@ func main() {
 	fmt.Println(m)
 }
 ```
-***<a href="https://play.golang.org/p/PgpzaAp2X7q" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/PgpzaAp2X7q" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 ## Working with the maps
 
@@ -210,24 +211,24 @@ func main() {
 	}
 }
 ```
-***<a href="https://play.golang.org/p/rT3ajhAyenr" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/rT3ajhAyenr" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 ***Thank you for reading this blog please give your feedback in the comment section below.***
 <hr>
 
-<a href="/blog/golang/array_slice">
+<a href="/blog/golang/series/array_slice">
   <b style="color:DodgerBlue">
     <i>🡄 Arrays and Slices</i>
   </b>
 </a> &emsp;
 
-<a href="/blog/golang/contents">
+<a href="/blog/golang/series/contents">
   <b style="color:DodgerBlue">
     <i>• Contents</i>
   </b>
 </a>  &emsp;
 
-<a href="/blog/golang/range">
+<a href="/blog/golang/series/range">
     <b style="color:DodgerBlue">
         <i>Range 🡆</i>
     </b>

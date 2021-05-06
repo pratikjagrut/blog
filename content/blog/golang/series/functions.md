@@ -9,6 +9,7 @@ categories:
 tags:
   - "golang"
   - "programming"
+  - "2021"
 ---
 
 A function is a block of statements which performs a specific task. Functions is a well organized and reusable code. It improves the code readability, maintainability and testability. The general function is: 
@@ -48,7 +49,7 @@ func main() {
 	sayCheeze()
 }
 ```
-***<a href="https://play.golang.org/p/sz4RmqzeqZZ" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/sz4RmqzeqZZ" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 ### You may pass input parameters
 
@@ -79,7 +80,7 @@ func main() {
 	addition(10, 20, 30)
 }
 ```
-***<a href="https://play.golang.org/p/Hd3WlDtdSbI" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/Hd3WlDtdSbI" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 ### You may define the return type of function
 
@@ -108,7 +109,7 @@ func main() {
 	fmt.Println(a, b, sum)
 }
 ```
-***<a href="https://play.golang.org/p/hqkVQEkp_Ik" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/hqkVQEkp_Ik" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 ### Named return values
 
@@ -129,7 +130,7 @@ func main() {
 	fmt.Printf("Quotient: %d and Remainder: %d", quotient, remainder)
 }
 ```
-***<a href="https://play.golang.org/p/4mOb0aPX7B2" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/4mOb0aPX7B2" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 ### Variadic functions
 
@@ -153,24 +154,24 @@ func main() {
 	fmt.Println(total(1, 2, 3, 4, 5, 6, 7, 8, 9, 10))
 }
 ```
-***<a href="https://play.golang.org/p/g0EkydaW9k2" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/g0EkydaW9k2" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 ***Thank you for reading this blog please give your feedback in the comment section below.***
 <hr>
 
-<a href="/blog/golang/range">
+<a href="/blog/golang/series/range">
   <b style="color:DodgerBlue">
     <i>🡄 Range</i>
   </b>
 </a> &emsp;
 
-<a href="/blog/golang/contents">
+<a href="/blog/golang/series/contents">
   <b style="color:DodgerBlue">
     <i>• Contents</i>
   </b>
 </a>  &emsp;
 
-<a href="/blog/golang/anonymous_func">
+<a href="/blog/golang/series/anonymous_func">
     <b style="color:DodgerBlue">
         <i>Anonymous Function 🡆</i>
     </b>

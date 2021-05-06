@@ -9,6 +9,7 @@ categories:
 tags:
   - "golang"
   - "programming"
+  - "2021"
 ---
 
 The anonymous function is a feature in Golang which let us define a function without a name. This feature is also called a function literal. This is useful when you want an inline function or to form a closure.
@@ -37,7 +38,7 @@ func main() {
 	}()
 }
 ```
-***<a href="https://play.golang.org/p/Kpnl__MXw7V" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/Kpnl__MXw7V" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 ### Assigning anonymous function to a variable
 
@@ -60,7 +61,7 @@ func main() {
 Type of variable v: func()
 Golang Rocks!
 ```
-***<a href="https://play.golang.org/p/Ebz_b0v-AX-" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/Ebz_b0v-AX-" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 ### Passing an argument to an anonymous function
 
@@ -77,7 +78,7 @@ func main() {
 	}("Jack")
 }
 ```
-***<a href="https://play.golang.org/p/oSsoVNXmNwX" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/oSsoVNXmNwX" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 **With any number of trailing arguments similar to Variadic functions**
 
@@ -92,7 +93,7 @@ func main() {
 	}(1, 2, 3, 4)
 }
 ```
-***<a href="https://play.golang.org/p/vMjTAcWpKec" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/vMjTAcWpKec" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 **Passing an anonymous function as an argument**
 
@@ -116,7 +117,7 @@ func main() {
 	})
 }
 ```
-***<a href="https://play.golang.org/p/UKJB3fh9DaA" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/UKJB3fh9DaA" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 
 - *Anonymous function as an argument to anonymous function*
@@ -134,7 +135,7 @@ func main() {
 	}("Jack"))
 }
 ```
-***<a href="https://play.golang.org/p/d8dprfgLXgF" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/d8dprfgLXgF" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 This above code looks a bit complicated and hard to fathom so another way we can achieve this is the following:
 
@@ -153,7 +154,7 @@ func main() {
 	}(af)
 }
 ```
-***<a href="https://play.golang.org/p/l7sP7Nz8qpw" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/l7sP7Nz8qpw" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 ### Return an anonymous function from another function
 
@@ -179,7 +180,7 @@ func main() {
 	fmt.Println(f("Jack"))
 }
 ```
-***<a href="https://play.golang.org/p/NY3YiPG4N9h" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/NY3YiPG4N9h" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 - *Returning from anonymous function*
 
@@ -203,24 +204,24 @@ func main() {
 	fmt.Println(c("Jack"))
 }
 ```
-***<a href="https://play.golang.org/p/jwfmOnhyOGh" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/jwfmOnhyOGh" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 ***Thank you for reading this blog please give your feedback in the comment section below.***
 <hr>
 
-<a href="/blog/golang/functions">
+<a href="/blog/golang/series/functions">
   <b style="color:DodgerBlue">
     <i>🡄 Functions</i>
   </b>
 </a> &emsp;
 
-<a href="/blog/golang/contents">
+<a href="/blog/golang/series/contents">
   <b style="color:DodgerBlue">
     <i>• Contents</i>
   </b>
 </a>  &emsp;
 
-<a href="/blog/golang/closures">
+<a href="/blog/golang/series/closures">
     <b style="color:DodgerBlue">
         <i>Closures 🡆</i>
     </b>

@@ -9,6 +9,7 @@ categories:
 tags:
   - "golang"
   - "programming"
+  - "2020"
 ---
 
 ### First thing, packages
@@ -60,24 +61,24 @@ go run main.go
 
 Hello, World!
 ```
-***<a href="https://play.golang.org/p/FAszkU0xQZo" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/FAszkU0xQZo" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 ***Thank you for reading this blog please give your feedback in the comment section below.***
 <hr>
 
-<a href="/blog/golang/introduction">
+<a href="/blog/golang/series/introduction">
   <b style="color:DodgerBlue">
     <i>🡄 Introduction and Installation</i>
   </b>
 </a> &emsp;
 
-<a href="/blog/golang/contents">
+<a href="/blog/golang/series/contents">
   <b style="color:DodgerBlue">
     <i>• Contents</i>
   </b>
 </a>  &emsp;
 
-<a href="/blog/golang/vdc">
+<a href="/blog/golang/series/vdc">
   <b style="color:DodgerBlue">
     <i>Variables, data types and constants 🡆</i>
   </b>

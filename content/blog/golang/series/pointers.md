@@ -9,6 +9,7 @@ categories:
 tags:
   - "golang"
   - "programming"
+  - "2021"
 ---
 
 The pointer is a special variable in Golang that stores the memory address of other variables. 
@@ -52,7 +53,7 @@ The value of i is:  42
 The memory address of i is 0xc00002c008
 ```
 
-***<a href="https://play.golang.org/p/DRmvVzN-gFK" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/DRmvVzN-gFK" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 ### Shorthand declaration
 
 In Golang shorthand declaration(:=) is used to narrow down the variable declaration. The Golang compiler will decide if the RHS variable is a pointer variable if we're assigning the memory address of the LHS variable using `&`.
@@ -91,7 +92,7 @@ In the above example, we can not dereference pointer `p` because it has `<nil>` 
 ```
 panic: runtime error: invalid memory address or nil pointer dereference
 ```
-***<a href="https://play.golang.org/p/C8gmExWxJ5B" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/C8gmExWxJ5B" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 ## Passing pointer to the function
 
 We can pass a pointer to the function as we pass other variables. We can create a pointer to the variable and then pass it to the function or we can just pass an address of that variable using `&`.
@@ -124,7 +125,7 @@ func main() {
 30
 ```
 
-***<a href="https://play.golang.org/p/gz-qxg5IT3Q" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/gz-qxg5IT3Q" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 ## Pass-by-value vs Pass-by-pointer
 
@@ -159,7 +160,7 @@ Original variable: 10
 Variable copy from add function: 20
 Original variable: 10
 ```
-***<a href="https://play.golang.org/p/uSHAuPe4dEn" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/uSHAuPe4dEn" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 **Pass by Pointer**
 
@@ -188,7 +189,7 @@ Original variable: 10
 Variable copy from add function: 20
 Original variable: 20
 ```
-***<a href="https://play.golang.org/p/ojMMRRkIeo3" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/ojMMRRkIeo3" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 *In some way we can say pass-by-pointer is an implementation of pass-by-value.*
 
@@ -225,6 +226,7 @@ Original map:  map[1:1 2:2 3:3]
 Modified map:  map[1:5 2:2 3:3]
 Original map:  map[1:5 2:2 3:3]
 ```
+***<a href="https://play.golang.org/p/ORs5UkdECmS" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 ***We passed an argument by-value then why did the original map was updated?***
 
@@ -233,26 +235,25 @@ When we create a map using `m := make(map[int]int)` the compiler makes call to t
 
 So as we see, the return type of runtime.makemap is a pointer to the `runtime.hmap structure`. So when we passed a map to the function we actually passed a pointer to the runtime.hmap structure of map m and hence the original map was modified.
 
-Instead of map if we try above program using slice we will get the similar output because slice variable stores the pointer to underlying array ***<a href="/blog/golang/array_slice" style="color:DodgerBlue" target="_blank">read more about Arrays and Slices here.</a>***
+Instead of map if we try above program using slice we will get the similar output because slice variable stores the pointer to underlying array ***<a href="/blog/golang/series/array_slice" style="color:DodgerBlue" target="_blank">read more about Arrays and Slices here.</a>***
 
-***<a href="https://play.golang.org/p/ORs5UkdECmS" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
 
 ***Thank you for reading this blog please give your feedback in the comment section below.***
 <hr>
 
-<a href="/blog/golang/closures">
+<a href="/blog/golang/series/closures">
   <b style="color:DodgerBlue">
     <i>🡄 Closures</i>
   </b>
 </a> &emsp;
 
-<a href="/blog/golang/contents">
+<a href="/blog/golang/series/contents">
   <b style="color:DodgerBlue">
     <i>• Contents</i>
   </b>
 </a>  &emsp;
 
-<a href="/blog/golang/structs_part_1">
+<a href="/blog/golang/series/structs_part_1">
     <b style="color:DodgerBlue">
         <i>Structs part-1 🡆</i>
     </b>

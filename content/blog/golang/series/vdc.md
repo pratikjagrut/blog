@@ -9,6 +9,7 @@ categories:
 tags:
   - "golang"
   - "programming"
+  - "2020"
 ---
 
 ## Variable
@@ -155,19 +156,19 @@ Every GO compiler has the flexibility to implement constant as they wish, within
 ***Thank you for reading this blog please give your feedback in the comment section below.***
 <hr>
 
-<a href="/blog/golang/helloworld">
+<a href="/blog/golang/series/helloworld">
   <b style="color:DodgerBlue">
     <i>🡄 First program in Go: Hello World</i>
   </b>
 </a> &emsp;
 
-<a href="/blog/golang/contents">
+<a href="/blog/golang/series/contents">
   <b style="color:DodgerBlue">
     <i>• Contents</i>
   </b>
 </a>  &emsp;
 
-<a href="/blog/golang/for_loop">
+<a href="/blog/golang/series/for_loop">
     <b style="color:DodgerBlue">
         <i>Looping Construct 🡆</i>
     </b>

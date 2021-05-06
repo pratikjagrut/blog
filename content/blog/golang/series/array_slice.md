@@ -9,6 +9,7 @@ categories:
 tags:
   - "golang"
   - "programming"
+  - "2020"
 ---
 
 ## Array
@@ -71,7 +72,7 @@ func main() {
 	fmt.Println("Length of array, k: ", len(k))
 }
 ```
-***<a href="https://play.golang.org/p/-mGgVI4V03b" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/-mGgVI4V03b" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 ## Slices
 
@@ -95,7 +96,7 @@ func main() {
 	fmt.Println(len(i))
 }
 ```
-***<a href="https://play.golang.org/p/yQUe7knUqgC" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/yQUe7knUqgC" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 #### Creating a slice with make
 
@@ -122,7 +123,7 @@ func main() {
 	fmt.Println("Values: ", b)
 }
 ```
-***<a href="https://play.golang.org/p/UqAJvWdDX0N" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/UqAJvWdDX0N" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 If the capacity argument is omitted then capacity defaults to length.
 
@@ -138,7 +139,7 @@ func main() {
 	fmt.Println("Values: ", b)
 }
 ```
-***<a href="https://play.golang.org/p/FZSQFmrl3nq" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/FZSQFmrl3nq" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 ##### Length and capacity
 
@@ -180,7 +181,7 @@ func main() {
 	fmt.Println("Values of m slice: ", m)
 }
 ```
-***<a href="https://play.golang.org/p/Z2e8QM8V2E3" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/Z2e8QM8V2E3" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 
 We can skip low or high bound to use their defaults. <br> 
@@ -249,7 +250,7 @@ Updated values of alphabet:  [A B P D ]
 Updated values of i:  [A B P]
 Updated values of j:  [B P D]
 ```
-***<a href="https://play.golang.org/p/iLR-Cs0cQkE" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/iLR-Cs0cQkE" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 ### Append and copy functions
 
@@ -279,7 +280,7 @@ func main() {
 	fmt.Println("Values: ", a)
 }
 ```
-***<a href="https://play.golang.org/p/wuAsUZnf9kc" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/wuAsUZnf9kc" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 
 **Appending one slice to another**
@@ -298,7 +299,7 @@ func main() {
 	fmt.Println("Values: ", a)
 }
 ```
-***<a href="https://play.golang.org/p/JEtqp9lsyD7" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/JEtqp9lsyD7" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 #### Copy
 
@@ -335,7 +336,7 @@ func main() {
 	fmt.Println("Values: ", o)
 }
 ```
-***<a href="https://play.golang.org/p/7wTe1-2Jz91" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/7wTe1-2Jz91" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 The copy function takes destination slice and source slice as an argument and returns the number of elements copied.
 
@@ -393,24 +394,24 @@ func main() {
 	fmt.Println(string(s))
 }
 ```
-***<a href="https://play.golang.org/p/0xzn5-ZlGgZ" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/0xzn5-ZlGgZ" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 ***Thank you for reading this blog please give your feedback in the comment section below.***
 <hr>
 
-<a href="/blog/golang/switch">
+<a href="/blog/golang/series/switch">
     <b style="color:DodgerBlue">
         <i>🡄 Switch Statement</i>
     </b>
 </a>  &emsp;
 
-<a href="/blog/golang/contents">
+<a href="/blog/golang/series/contents">
   <b style="color:DodgerBlue">
     <i>• Contents</i>
   </b>
 </a>  &emsp;
 
-<a href="/blog/golang/maps">
+<a href="/blog/golang/series/maps">
     <b style="color:DodgerBlue">
         <i>Maps 🡆</i>
     </b>

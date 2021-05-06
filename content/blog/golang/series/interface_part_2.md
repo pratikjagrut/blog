@@ -9,6 +9,7 @@ categories:
 tags:
   - "golang"
   - "programming"
+  - "2021"
 ---
 ## Type assertion
 
@@ -50,7 +51,7 @@ func main() {
 ```
 {Barry Allen}
 ```
-***<a href="https://play.Golang.org/p/fzNWgZvcdVk" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.Golang.org/p/fzNWgZvcdVk" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 In the above example, we create a Person interface which is then implicitly implemented by the Student struct by implementing the info method.
 `var p Person = s` this statement creates interface variable `p` and assign Student struct type variable `s` to it.
@@ -82,7 +83,7 @@ func main() {
 ./prog.go:15:11: impossible type assertion:
     Student does not implement Person (missing info method)
 ```
-***<a href="https://play.Golang.org/p/o7rOeX5EYKa" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.Golang.org/p/o7rOeX5EYKa" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 If the `Type` implements the interface but the concrete value of that type is not available then Go will panic in runtime.
 
@@ -116,7 +117,7 @@ goroutine 1 [running]:
 main.main()
     /tmp/sandbox657831697/prog.go:19 +0x45
 ```
-***<a href="https://play.Golang.org/p/yuLoDEbO3zr" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.Golang.org/p/yuLoDEbO3zr" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 Similarly, if the concrete type of interface variable does not match with `Type` of `i.(Type)` then Go will panic in runtime.
 
@@ -161,7 +162,7 @@ goroutine 1 [running]:
 main.main()
     /tmp/sandbox133075599/prog.go:30 +0x45
 ```
-***<a href="https://play.Golang.org/p/-6kfh5zgUXj" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.Golang.org/p/-6kfh5zgUXj" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 To avoid the above panic errors Go has another way for type assertion. 
 
@@ -211,7 +212,7 @@ func main() {
 {} false
 {} false
 ```
-***<a href="https://play.Golang.org/p/8ox44oLj9d_4" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.Golang.org/p/8ox44oLj9d_4" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 ## Type switch
 
@@ -263,7 +264,7 @@ It is string
 It is boolean
 IDK
 ```
-***<a href="https://play.Golang.org/p/Z5RM_vGPSWF" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.Golang.org/p/Z5RM_vGPSWF" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 In the above example, we're passing an empty interface as an argument to function. 
 The empty interface is implemented by all the type so we can pass any type of parameter while calling that function.
@@ -315,7 +316,7 @@ func main() {
 Name of the car: SF90 STRADALE
 Colour of the car: ROSSO CORSA
 ```
-***<a href="https://play.Golang.org/p/D0hHbX-1g90" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.Golang.org/p/D0hHbX-1g90" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 In the above code, type `Ferrari` is implementing method `information` from an interface `Car` with a value receiver and in the main function, we're assigning variable `f` of struct `Ferrari` to variable `c1` of an interface `Car` and then calling `information` method using interface variable.
 
@@ -356,7 +357,7 @@ func main() {
 Name of the car: 718 SPYDER
 Colour of the car: BLACK
 ```
-***<a href="https://play.Golang.org/p/fGVGiYL3qrJ" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.Golang.org/p/fGVGiYL3qrJ" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 In the above code, type `Porsche` is implementing method `information` from an interface `Car` with a pointer receiver and in the main function we're assigning variable pointer `p` of struct `Porsche` to variable `c2` of an interface `Car` and then calling `information` method using interface variable.
 
@@ -405,7 +406,7 @@ func main() {
 Name of the car: SF90 STRADALE
 Colour of the car: ROSSO CORSA
 ```
-***<a href="https://play.Golang.org/p/6OS8urGqkA5" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.Golang.org/p/6OS8urGqkA5" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 In the above code, the pointer to value conversion is done by Golang implicitly.
 It is valid to call a method with value type on any value or anything whose value can be dereferenced.
@@ -452,7 +453,7 @@ func main() {
 ./prog.go:29:4: cannot use p (type Porsche) as type Car in assignment:
     Porsche does not implement Car (information method has pointer receiver)
 ```
-***<a href="https://play.Golang.org/p/cP0WQqvbQbr" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.Golang.org/p/cP0WQqvbQbr" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 In the above code, we're implementing the `information` method using pointer receiver and then calling it on value type instead of a pointer, and we're getting compilation error.
 *So what's happening?*
@@ -517,7 +518,7 @@ func main() {
     fmt.Println(m == n) // true
 }
 ```
-***<a href="https://play.Golang.org/p/crqoWj9PbmQ" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.Golang.org/p/crqoWj9PbmQ" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 ### Some good resources to read
 
@@ -528,19 +529,19 @@ func main() {
 ***Thank you for reading this blog please give your feedback in the comment section below.***
 <hr>
 
-<a href="/blog/golang/interface_part_1">
+<a href="/blog/golang/series/interface_part_1">
   <b style="color:DodgerBlue">
     <i>🡄 Interface Part-1</i>
   </b>
 </a> &emsp;
 
-<a href="/blog/golang/contents">
+<a href="/blog/golang/series/contents">
   <b style="color:DodgerBlue">
     <i>• Contents</i>
   </b>
 </a>  &emsp;
 
-<!-- <a href="/blog/golang/">
+<!-- <a href="/blog/golang/series/">
     <b style="color:DodgerBlue">
         <i> 🡆</i>
     </b>

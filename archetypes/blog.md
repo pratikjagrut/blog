@@ -13,7 +13,7 @@ images:
 categories:
   - ""
 tags:
-  - ""
+  - "{{ now.Year }}"
 ---
 
 ***Thank you for reading this blog please give your feedback in the comment section below.***

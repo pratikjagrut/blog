@@ -9,6 +9,7 @@ categories:
 tags:
   - "golang"
   - "programming"
+  - "2021"
 ---
 ## Nested Structs
 
@@ -58,7 +59,7 @@ func main() {
 ```
 &main.Person{name:"James Bond", age:34, address:main.Address{city:"London", country:"UK"}}
 ```
-***<a href="https://play.golang.org/p/e4A9YhIirqW" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/e4A9YhIirqW" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 ### Accessing fields of nested struct
 
@@ -103,7 +104,7 @@ Age: 34
 City: London
 Country: UK
 ```
-***<a href="https://play.golang.org/p/OTkVLWQRf3Q" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/OTkVLWQRf3Q" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 ### Promoted fields
 
@@ -148,7 +149,7 @@ Age: 34
 City: London
 Country: UK
 ```
-***<a href="https://play.golang.org/p/wkxWR0u6zoT" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/wkxWR0u6zoT" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 ***Only unique fields of nested anonymous struct gets promoted.*** 
 
@@ -185,7 +186,7 @@ func main() {
     fmt.Printf("Country: %v\n", person.country)
 }
 ```
-***<a href="https://play.golang.org/p/gklcUfcRJV9" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/gklcUfcRJV9" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 In this example, we have `City` a nested anonymous struct, whose fields are `name` and `country`. The `name` field is also available in `Person` struct. So when we try `person.name` then the compiler will give us access to Person's name field by default hence to access the name field from City struct we've to do `person.City.name`. The country field from City struct is unique here so we can just access it by using `person.country`.
 
@@ -225,7 +226,7 @@ func main() {
     fmt.Println(p1 == p2) // true
 }
 ```
-***<a href="https://play.golang.org/p/KZrnjv-8qC1" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/KZrnjv-8qC1" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 ***Comparing pointers to the struct will always be false, we need to compare dereferenced pointer values.***
 
@@ -253,7 +254,7 @@ func main() {
     fmt.Println(*p1 == *p2) // true
 }
 ```
-***<a href="https://play.golang.org/p/qcQYTF_BUcP" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/qcQYTF_BUcP" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 If structs contain incomparable values then struct values can not be compared using `==` operator, it will throw an error.
 
@@ -330,7 +331,7 @@ func main() {
     fmt.Println(reflect.DeepEqual(p1, p2)) // true
 }
 ```
-***<a href="https://play.golang.org/p/R1nK7gPUcrt" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/R1nK7gPUcrt" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 ## Structs and methods/receiver function
 
 Golang supports both function and method. A method is a function that is defined for a particular type or with a receiver. A method in Golang also called a receiver function. Following is the example.
@@ -361,7 +362,7 @@ func main() {
 ```
 "James Bond" is "34" years old.
 ```
-***<a href="https://play.golang.org/p/NnCg1hi-t2d" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/NnCg1hi-t2d" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 We can also use a pointer as the receiver of the method. The difference between value as receiver and pointer as a receiver is, golang passes everything as value and hence in value receiver the function will get a copy of struct and function will not touch original struct whereas in pointer as a receiver function will get a copy of a pointer which will be pointing to an original struct.
 
@@ -414,7 +415,7 @@ Age after update:  34
 Name before update:  James Bond
 Name after update:  Jon Snow
 ```
-***<a href="https://play.golang.org/p/gvDMobx70PK" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/gvDMobx70PK" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 ## Empty Struct
 
 In GOlang, we can have an empty struct. A struct without any field is called an empty struct. Below is the signature of an empty struct.
@@ -466,13 +467,13 @@ Size of an empty struct:  0
 Size of an array of an empty struct:  0
 Size of a slice of an empty struct:  24
 ```
-***<a href="https://play.golang.org/p/SB9x1tSICW1" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/SB9x1tSICW1" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 Read more about the empty struct and its use cases at ***<a href="https://dave.cheney.net/2014/03/25/the-empty-struct" style="color:DodgerBlue" target="_blank">Dave Cheney's blog.</a>***
 
 ## Array/Slice of structs
 
-The ***<a href="/blog/golang/array_slice" style="color:DodgerBlue" target="_blank">Array/Slice</a>*** is a collection of the same type of element in a contiguous memory location. We can create an array/slice of structs.
+The ***<a href="/blog/golang/series/array_slice" style="color:DodgerBlue" target="_blank">Array/Slice</a>*** is a collection of the same type of element in a contiguous memory location. We can create an array/slice of structs.
 
 ```
 package main
@@ -511,24 +512,24 @@ func main() {
 &{Joey Tribbiani 32}
 Name of friends character:  Joey Tribbiani
 ```
-***<a href="https://play.golang.org/p/g9-754U92un" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/g9-754U92un" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 ***Thank you for reading this blog please give your feedback in the comment section below.***
 <hr>
 
-<a href="/blog/golang/structs_part_1">
+<a href="/blog/golang/series/structs_part_1">
   <b style="color:DodgerBlue">
     <i>🡄 Structs part-1</i>
   </b>
 </a> &emsp;
 
-<a href="/blog/golang/contents">
+<a href="/blog/golang/series/contents">
   <b style="color:DodgerBlue">
     <i>• Contents</i>
   </b>
 </a>  &emsp;
 
-<a href="/blog/golang/interface_part_1">
+<a href="/blog/golang/series/interface_part_1">
     <b style="color:DodgerBlue">
         <i>Interface Part-1 🡆</i>
     </b>

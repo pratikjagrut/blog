@@ -9,6 +9,7 @@ categories:
 tags:
   - "golang"
   - "programming"
+  - "2020"
 ---
 
 Conditional Statements are part of every programming language. 
@@ -38,7 +39,7 @@ func main(){
   }
 }
 ```
-***<a href="https://play.golang.org/p/YO_-cELIUii" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/YO_-cELIUii" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 ### If-Else statement in Go
 
 ```
@@ -65,7 +66,7 @@ func main(){
   }
 }
 ```
-***<a href="https://play.golang.org/p/Fj2fjOaeNZy" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/Fj2fjOaeNZy" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 ### if-else-if ladder
 
@@ -87,7 +88,7 @@ func main(){
 }
 }
 ```
-***<a href="https://play.golang.org/p/kL1RyoKUzF-" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/kL1RyoKUzF-" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 ### If with a short statement
 
@@ -102,24 +103,24 @@ func main() {
 	}
 } 
 ```
-***<a href="https://play.golang.org/p/f6SyTAE1Rtz" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/f6SyTAE1Rtz" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 ***Thank you for reading this blog please give your feedback in the comment section below.***
 <hr>
 
-<a href="/blog/golang/for_loop">
+<a href="/blog/golang/series/for_loop">
   <b style="color:DodgerBlue">
     <i>🡄 Looping Construct</i>
   </b>
 </a> &emsp;
 
-<a href="/blog/golang/contents">
+<a href="/blog/golang/series/contents">
   <b style="color:DodgerBlue">
     <i>• Contents</i>
   </b>
 </a>  &emsp;
 
-<a href="/blog/golang/switch">
+<a href="/blog/golang/series/switch">
     <b style="color:DodgerBlue">
         <i>Switch Statement 🡆</i>
     </b>

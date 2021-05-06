@@ -14,7 +14,7 @@ categories:
 tags:
   - "golang"
   - "programming"
-  - "tech"
+  - "series"
 ---
 
 # Contents
@@ -30,70 +30,70 @@ tags:
   </b>
 </a>
 
-* <a href="/blog/golang/introduction">
+* <a href="/blog/golang/series/introduction">
       <span style="color:Green; text-transform: uppercase;" class="fab">Introduction and Installation</span>
   </a> &emsp;
 
-* <a href="/blog/golang/helloworld">
+* <a href="/blog/golang/series/helloworld">
       <span style="color:Green; text-transform: uppercase;" class="fab">First program in Go: Hello World</span>
   </a> &emsp;
 
-* <a href="/blog/golang/vdc">
+* <a href="/blog/golang/series/vdc">
       <span style="color:Green; text-transform: uppercase;" class="fab">Variables, data types and constants</span>
   </a> &emsp;
 
-* <a href="/blog/golang/for_loop">
+* <a href="/blog/golang/series/for_loop">
       <span style="color:Green; text-transform: uppercase;" class="fab">Looping Construct</span>
   </a> &emsp;
 
-* <a href="/blog/golang/if_else">
+* <a href="/blog/golang/series/if_else">
       <span style="color:Green; text-transform: uppercase;" class="fab">Conditional Statements</span>
   </a> &emsp;
 
-* <a href="/blog/golang/switch">
+* <a href="/blog/golang/series/switch">
       <span style="color:Green; text-transform: uppercase;" class="fab">Switch Statement</span>
   </a> &emsp;
 
-* <a href="/blog/golang/array_slice">
+* <a href="/blog/golang/series/array_slice">
       <span style="color:Green; text-transform: uppercase;" class="fab">Arrays and Slices</span>
   </a> &emsp;
 
-* <a href="/blog/golang/maps">
+* <a href="/blog/golang/series/maps">
       <span style="color:Green; text-transform: uppercase;" class="fab">Maps</span>
   </a> &emsp;
 
-* <a href="/blog/golang/range">
+* <a href="/blog/golang/series/range">
       <span style="color:Green; text-transform: uppercase;" class="fab">Range</span>
   </a> &emsp;
 
-* <a href="/blog/golang/functions">
+* <a href="/blog/golang/series/functions">
       <span style="color:Green; text-transform: uppercase;" class="fab">Functions</span>
   </a> &emsp;
 
-* <a href="/blog/golang/anonymous_func">
+* <a href="/blog/golang/series/anonymous_func">
       <span style="color:Green; text-transform: uppercase;" class="fab">Anonymous Function</span>
   </a> &emsp;
 
-* <a href="/blog/golang/closures">
+* <a href="/blog/golang/series/closures">
       <span style="color:Green; text-transform: uppercase;" class="fab">Closures</span>
   </a> &emsp;
 
-* <a href="/blog/golang/pointers">
+* <a href="/blog/golang/series/pointers">
       <span style="color:Green; text-transform: uppercase;" class="fab">Pointers</span>
   </a> &emsp;
 
-* <a href="/blog/golang/structs_part_1">
+* <a href="/blog/golang/series/structs_part_1">
       <span style="color:Green; text-transform: uppercase;" class="fab">Structs Part-1</span>
   </a> &emsp;
 
-* <a href="/blog/golang/structs_part_2">
+* <a href="/blog/golang/series/structs_part_2">
       <span style="color:Green; text-transform: uppercase;" class="fab">Structs Part-2</span>
   </a> &emsp;
 
-* <a href="/blog/golang/interface_part_1">
+* <a href="/blog/golang/series/interface_part_1">
       <span style="color:Green; text-transform: uppercase;" class="fab">Interface Part-1</span>
   </a> &emsp;
 
-* <a href="/blog/golang/interface_part_2">
+* <a href="/blog/golang/series/interface_part_2">
       <span style="color:Green; text-transform: uppercase;" class="fab">Interface Part-2</span>
   </a> &emsp;

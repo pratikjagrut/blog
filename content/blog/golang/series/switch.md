@@ -9,6 +9,7 @@ categories:
 tags:
   - "golang"
   - "programming"
+  - "2020"
 ---
 
 A switch statement is another way to write a sequence of if - else statements.
@@ -52,7 +53,7 @@ func main() {
 	}
 }
 ```
-***<a href="https://play.golang.org/p/pnjVB1dPSkX" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/pnjVB1dPSkX" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 ### Switch with NO condition
 
 Switch with no condition is like `switch true`. It is useful for writing long if-else-if ladder.
@@ -76,24 +77,24 @@ func main() {
 	}
 }
 ```
-***<a href="https://play.golang.org/p/NT19bQTpqAi" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
+***<a href="https://play.golang.org/p/NT19bQTpqAi" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
 ***Thank you for reading this blog please give your feedback in the comment section below.***
 <hr>
 
-<a href="/blog/golang/if_else">
+<a href="/blog/golang/series/if_else">
   <b style="color:DodgerBlue">
     <i>🡄 Conditional Statements</i>
   </b>
 </a> &emsp;
 
-<a href="/blog/golang/contents">
+<a href="/blog/golang/series/contents">
   <b style="color:DodgerBlue">
     <i>• Contents</i>
   </b>
 </a>  &emsp;
 
-<a href="/blog/golang/array_slice">
+<a href="/blog/golang/series/array_slice">
     <b style="color:DodgerBlue">
         <i>Arrays and Slices 🡆</i>
     </b>
