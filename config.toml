@@ -138,3 +138,6 @@ disableLanguages        = []
   facebook              = "jagrutpratik"
   # Email
   email                 = "jagrut.pratik@gmail.com"
+
+[blackfriday]
+  hrefTargetBlank = true
