@@ -1,5 +1,5 @@
 ---
-title: "Transforming pedestrian Github profile into dynamic portfolio"
+title: "Transforming normal Github profile into dynamic portfolio"
 description: ""
 date: 2021-05-06T20:57:06+05:30
 draft: false
@@ -17,17 +17,17 @@ tags:
   - "git"
   - "programming"
 ---
-Today Github is the behemoth platform for opensource projects.
-There would not be a single person in the opensource community who don't use GitHub.
-And there could be a very little or minuscule number of the developer who doesn't have GitHub profile.
-Github is not only the home for best opensource projects but also a place where developers could showcase their talent via a panoply of projects.
+Today Github is the behemoth platform for open-source projects.
+There would not be a single person in the open-source community who doesn't use GitHub.
+And there could be a minuscule number of developers who don't have a GitHub profile.
+Github is not only home for the best open-source projects but also a place where developers could showcase their talent via a panoply of projects.
 
-Below is the default GitHub profile page that shows the name, contact information and some repositories.
+Below is the default, pedestrian GitHub profile page that shows the name, contact information, and some repositories.
 
 ![GitHub default profile page](/img/git/ghRegProf.png)
 
 A few months back, Github launched a new feature that lets us customize our profile page using the README file.
-README is a repository or project level file used for documenting the project. 
+README is a repository or project-level file used for documenting the project. 
 README.md is written in `Markdown(lightweight markup language)` that converts text to HTML.
 
 #### In this blog post, I will show how I customized my mundane Github profile using the README file.
@@ -68,8 +68,7 @@ If you want to make an image, a link that will open your blog or some other site
 
 GitHub initializes README with a few bullet points. I used the same template to add my bio.
 
-README file is highly customizable, we can use Markdown to add more creative bio. 
-This is the ***<a href="https://www.markdownguide.org/basic-syntax/" style="color:#2eb8ac" target="_blank">Markdown syntax guide</a>***
+README file is highly customizable using Markdown. Checkout the ***<a href="https://www.markdownguide.org/basic-syntax/" style="color:#2eb8ac" target="_blank">Markdown syntax guide</a>***
 
 ![Create repo](/img/git/bio.png)
 
@@ -93,7 +92,7 @@ Once we've got the badge, we can then put it anywhere we want.
 ![Github stats](/img/git/stats.png)
 
 
-##### <span style="color:green"> There are tone of customization we can do with GitHub profile using README, not everything is not covered in this. Below are some useful resources which will help to add some advanced elements.</span>.
+##### <span style="color:green"> There are lots of customization we can do with GitHub profile using README, not everything is not covered in this. Below are some useful resources which will help to add some advanced elements.</span>.
 
 - ***[My Github profile README](https://github.com/pratikjagrut/pratikjagrut)***
 - ***[Create badges: shields.io](https://shields.io/)***
