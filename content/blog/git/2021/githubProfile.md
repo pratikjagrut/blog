@@ -90,7 +90,7 @@ Once we've got the badge, we can then put it anywhere we want.
 
 ***<a href="https://github.com/anuraghazra/github-readme-stats" style="color:#2eb8ac" target="_blank">Github Readme stats</a>*** shows the statistics of our profile in various beautiful cards. 
 
-![Github stats](/img/git/stats.png)e
+![Github stats](/img/git/stats.png)
 
 
 ##### <span style="color:green"> There are tone of customization we can do with GitHub profile using README, not everything is not covered in this. Below are some useful resources which will help to add some advanced elements.</span>.
