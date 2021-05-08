@@ -92,7 +92,7 @@ Once we've got the badge, we can then put it anywhere we want.
 ![Github stats](/img/git/stats.png)
 
 
-##### <span style="color:green"> There are lots of customization we can do with GitHub profile using README, not everything is not covered in this. Below are some useful resources which will help to add some advanced elements.</span>.
+##### <span style="color:green"> There are lots of customizations we can do with the GitHub profile. Below are some valuable resources which could help to add some advance elements.</span>.
 
 - ***[My Github profile README](https://github.com/pratikjagrut/pratikjagrut)***
 - ***[Create badges: shields.io](https://shields.io/)***
