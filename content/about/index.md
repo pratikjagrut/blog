@@ -6,14 +6,11 @@ layout: "about"
 ---
 
 <!-- ![Pratik Jagrut](/img/main/IMG_0239.JPG "Resume") -->
-Pratik currently works at Red Hat as Associate Software Engineer since January 2019. He joined Red Hat as an intern just after graduating in 2018. He holds a Bachelor of Engineering degree in Computer Science.
+I work at Red Hat as a Software Engineer since January 2019. I joined Red Hat as an intern just after graduating in 2018. I hold a Bachelor of Engineering degree in Computer Science and Engineering stream.
 
-Pratik is enthusiastic about Linux and opensource technologies. He's fueled by his passion for understanding new technologies. He considers himself a ‘forever student', eager to learn, grow and build his professional and personal life.
+I'm a Linux and open source enthusiast, fueled by my passion for understanding new technologies. I consider myself a forever student, eager to learn, grow and build a professional and personal life.
 
-Pratik is also very enamoured of outdoor activities. He likes to play European football, swimming, trekking and travelling around the globe. 
-
-Click **[here]({{< ref "/resume" >}} "Resume")** to know more about him.
-
+I'm very enamored of outdoor activities. I like to play European football, swimming, trekking, and traveling around the globe.
 ### Reach me @
 
 [![Github Badge](https://img.shields.io/badge/-github-black?style=for-the-badge&logo=github&logoColor=white)][github] &emsp;

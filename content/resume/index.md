@@ -1,7 +1,7 @@
 ---
 title: "Resume"
 date: 2020-12-12T12:21:16+05:30
-draft: false
+draft: true
 author: "Pratik Jagrut"
 layout: "blog"
 # images:
