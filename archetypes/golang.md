@@ -9,6 +9,7 @@ categories:
 tags:
   - "golang"
   - "programming"
+  - "{{ now.Year }}"
 ---
 ***<a href="" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
 
