@@ -1,5 +1,5 @@
 ---
-title: "Transforming normal Github profile into dynamic portfolio"
+title: "Transform pedestrian Github profile into dynamic portfolio"
 description: ""
 date: 2021-05-06T20:57:06+05:30
 draft: false
