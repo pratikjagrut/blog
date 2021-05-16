@@ -238,7 +238,7 @@ So as we see, the return type of runtime.makemap is a pointer to the `runtime.hm
 Instead of map if we try above program using slice we will get the similar output because slice variable stores the pointer to underlying array ***<a href="/blog/golang/series/array_slice" style="color:DodgerBlue" target="_blank">read more about Arrays and Slices here.</a>***
 
 
-***Thank you for reading this blog please give your feedback in the comment section below.***
+***Thank you for reading this blog, and please give your feedback in the comment section below.***
 <hr>
 
 <a href="/blog/golang/series/closures">
@@ -255,7 +255,7 @@ Instead of map if we try above program using slice we will get the similar outpu
 
 <a href="/blog/golang/series/structs_part_1">
     <b style="color:DodgerBlue">
-        <i>Structs part-1 🡆</i>
+        <i>Structs (part-1) 🡆</i>
     </b>
 </a>  &emsp;
 

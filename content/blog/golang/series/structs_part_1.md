@@ -1,5 +1,5 @@
 ---
-title: "Structs part-1"
+title: "Structs (Part-1)"
 date: 2021-03-04T18:02:10+05:30
 draft: false
 author: "Pratik Jagrut"
@@ -367,7 +367,7 @@ func main() {
 ```
 ***<a href="https://play.golang.org/p/v8qcTOiZVCN" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
-***Thank you for reading this blog please give your feedback in the comment section below.***
+***Thank you for reading this blog, and please give your feedback in the comment section below.***
 <hr>
 
 <a href="/blog/golang/series/pointers">
@@ -384,7 +384,7 @@ func main() {
 
 <a href="/blog/golang/series/structs_part_2">
     <b style="color:DodgerBlue">
-        <i>Structs part-2 🡆</i>
+        <i>Structs (Part-2) 🡆</i>
     </b>
 </a>  &emsp;
 

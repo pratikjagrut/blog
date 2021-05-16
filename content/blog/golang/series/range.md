@@ -143,7 +143,7 @@ Slice after range:  [1 2 3 4 5]
 
 In the above example, I try to increment all the values of the slice by 1 but the slice is unaffected. This is because the range loop copies the value from slice to local variable. So to update the slice we'll need to use traditional way `nums[i] += 1`.
 
-***Thank you for reading this blog please give your feedback in the comment section below.***
+***Thank you for reading this blog, and please give your feedback in the comment section below.***
 <hr>
 
 <a href="/blog/golang/series/maps">

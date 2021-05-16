@@ -1,7 +1,7 @@
 ---
 title: "Golang"
 description: "Index page"
-date: 2021-04-25T11:15:00+05:30
+date: 2021-05-16T13:08:13+05:30
 draft: false
 author: "Pratik Jagrut"
 layout: "blog"
@@ -83,17 +83,25 @@ tags:
   </a> &emsp;
 
 * <a href="/blog/golang/series/structs_part_1">
-      <span style="color:Green; text-transform: uppercase;" class="fab">Structs Part-1</span>
+      <span style="color:Green; text-transform: uppercase;" class="fab">Structs (Part-1)</span>
   </a> &emsp;
 
 * <a href="/blog/golang/series/structs_part_2">
-      <span style="color:Green; text-transform: uppercase;" class="fab">Structs Part-2</span>
+      <span style="color:Green; text-transform: uppercase;" class="fab">Structs (Part-2)</span>
   </a> &emsp;
 
 * <a href="/blog/golang/series/interface_part_1">
-      <span style="color:Green; text-transform: uppercase;" class="fab">Interface Part-1</span>
+      <span style="color:Green; text-transform: uppercase;" class="fab">Interface (Part-1)</span>
   </a> &emsp;
 
 * <a href="/blog/golang/series/interface_part_2">
-      <span style="color:Green; text-transform: uppercase;" class="fab">Interface Part-2</span>
+      <span style="color:Green; text-transform: uppercase;" class="fab">Interface (Part-2)</span>
+  </a> &emsp;
+
+* <a href="/blog/golang/series/error_part_1">
+      <span style="color:Green; text-transform: uppercase;" class="fab">Error Handling (Part-1)</span>
+  </a> &emsp;
+
+* <a href="/blog/golang/series/error_part_2">
+      <span style="color:Green; text-transform: uppercase;" class="fab">Error Handling (Part-2)</span>
   </a> &emsp;

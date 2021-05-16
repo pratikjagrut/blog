@@ -75,7 +75,7 @@ Iteration number: 3
 Iteration number: 4
 ```
 
-***Thank you for reading this blog please give your feedback in the comment section below.***
+***Thank you for reading this blog, and please give your feedback in the comment section below.***
 <hr>
 
 <a href="/blog/golang/series/vdc">

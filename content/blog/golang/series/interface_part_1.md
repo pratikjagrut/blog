@@ -1,5 +1,5 @@
 ---
-title: "Interface Part-1"
+title: "Interface (Part-1)"
 date: 2021-03-07T20:14:16+05:30
 draft: false
 author: "Pratik Jagrut"
@@ -419,12 +419,12 @@ The type `square` implements method from `Shape`, `fmt.Stringer` and `Quadrilate
 In the main function, we're creating a variable of type `square` and assigning it to the variable of the `Quadrilateral` interface.
 After that, we're calling all the method implemented by type `square` using only the variable of the `Quadrilateral` interface.
 
-***Thank you for reading this blog please give your feedback in the comment section below.***
+***Thank you for reading this blog, and please give your feedback in the comment section below.***
 <hr>
 
 <a href="/blog/golang/series/structs_part_2">
   <b style="color:DodgerBlue">
-    <i>🡄 Structs Part-2</i>
+    <i>🡄 Structs (Part-2)</i>
   </b>
 </a> &emsp;
 
@@ -436,7 +436,7 @@ After that, we're calling all the method implemented by type `square` using only
 
 <a href="/blog/golang/series/interface_part_2">
     <b style="color:DodgerBlue">
-        <i>Interface Part-2 🡆</i>
+        <i>Interface (Part-2) 🡆</i>
     </b>
 </a>  &emsp;
 

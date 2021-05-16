@@ -146,7 +146,7 @@ export GOPATH=$HOME/go_workspace
 
 ***Note: GOPATH must be different than the path of your Go installation.***
 
-***Thank you for reading this blog please give your feedback in the comment section below.***
+***Thank you for reading this blog, and please give your feedback in the comment section below.***
 <hr>
 
 <a href="/blog/golang/series/contents">

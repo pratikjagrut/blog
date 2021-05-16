@@ -213,7 +213,7 @@ func main() {
 ```
 ***<a href="https://play.golang.org/p/rT3ajhAyenr" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
-***Thank you for reading this blog please give your feedback in the comment section below.***
+***Thank you for reading this blog, and please give your feedback in the comment section below.***
 <hr>
 
 <a href="/blog/golang/series/array_slice">

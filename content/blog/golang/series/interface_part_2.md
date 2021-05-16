@@ -1,5 +1,5 @@
 ---
-title: "Interface Part-2"
+title: "Interface (Part-2)"
 date: 2021-04-25T10:46:37+05:30
 draft: false
 author: "Pratik Jagrut"
@@ -526,12 +526,12 @@ func main() {
 
 ***<a href="https://blog.golang.org/laws-of-reflection" style="color:#2eb8ac" target="_blank">The Laws of Reflection by Rob Pike</a>***
 
-***Thank you for reading this blog please give your feedback in the comment section below.***
+***Thank you for reading this blog, and please give your feedback in the comment section below.***
 <hr>
 
 <a href="/blog/golang/series/interface_part_1">
   <b style="color:DodgerBlue">
-    <i>🡄 Interface Part-1</i>
+    <i>🡄 Interface (Part-1)</i>
   </b>
 </a> &emsp;
 
@@ -541,11 +541,11 @@ func main() {
   </b>
 </a>  &emsp;
 
-<!-- <a href="/blog/golang/series/">
+<a href="/blog/golang/series/error_part_1">
     <b style="color:DodgerBlue">
-        <i> 🡆</i>
+        <i>Error Handling (Part-1) 🡆</i>
     </b>
-</a>  &emsp; -->
+</a>  &emsp;
 
 <br>
 

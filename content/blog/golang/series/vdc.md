@@ -153,7 +153,7 @@ In the case of untyped constant, the literal value will determine what kind/type
 Every GO compiler has the flexibility to implement constant as they wish, within the mandatory set of [requirements](http://golang.org/ref/spec#Constants).
 
 
-***Thank you for reading this blog please give your feedback in the comment section below.***
+***Thank you for reading this blog, and please give your feedback in the comment section below.***
 <hr>
 
 <a href="/blog/golang/series/helloworld">

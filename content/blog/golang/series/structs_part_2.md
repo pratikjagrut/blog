@@ -1,5 +1,5 @@
 ---
-title: "Structs part-2"
+title: "Structs (Part-2)"
 date: 2021-03-04T21:53:38+05:30
 draft: false
 author: "Pratik Jagrut"
@@ -514,12 +514,12 @@ Name of friends character:  Joey Tribbiani
 ```
 ***<a href="https://play.golang.org/p/g9-754U92un" style="color:DodgerBlue" target="_blank">Run this code in Go Playground</a>***
 
-***Thank you for reading this blog please give your feedback in the comment section below.***
+***Thank you for reading this blog, and please give your feedback in the comment section below.***
 <hr>
 
 <a href="/blog/golang/series/structs_part_1">
   <b style="color:DodgerBlue">
-    <i>🡄 Structs part-1</i>
+    <i>🡄 Structs (Part-1)</i>
   </b>
 </a> &emsp;
 
@@ -531,7 +531,7 @@ Name of friends character:  Joey Tribbiani
 
 <a href="/blog/golang/series/interface_part_1">
     <b style="color:DodgerBlue">
-        <i>Interface Part-1 🡆</i>
+        <i>Interface (Part-1) 🡆</i>
     </b>
 </a>  &emsp;
 

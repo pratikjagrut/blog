@@ -285,5 +285,5 @@ We can define two types of aliases in Git.
 Git aliases are a very useful feature. They help to improve the overall efficiency and productivity of git workflow. 
 We can define as many aliases as we want, Git is too generous. It is always good to have aliases for regularly used and lengthy commands.
 
-<b style="color:#cc3300"><i>***Thank you for reading this blog please give your feedback in the comment section below.***</i></b>
+<b style="color:#cc3300"><i>***Thank you for reading this blog, and please give your feedback in the comment section below.***</i></b>
 <hr>
