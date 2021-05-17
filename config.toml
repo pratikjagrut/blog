@@ -55,8 +55,8 @@ disableLanguages        = []
     alwaysOnHomepage      = false
 
     [params.intro.pic]
-      src                 = "img/main/IMG_0239.JPG"
-      shape               = "circle"
+      src                 = "img/main/dp.jpg"
+      shape               = "square"
       width               = ""
       alt                 = "Desktop Picture"
 
