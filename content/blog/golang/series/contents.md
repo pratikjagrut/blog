@@ -1,7 +1,7 @@
 ---
 title: "Golang"
 description: "Index page"
-date: 2021-05-16T13:08:13+05:30
+date: 2021-06-01T10:11:55+05:29
 draft: false
 author: "Pratik Jagrut"
 layout: "blog"

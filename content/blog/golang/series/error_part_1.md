@@ -1,9 +1,14 @@
 ---
 title: "Error Handling (Part-1)"
-date: 2021-05-16T12:53:34+05:30
+date: 2021-06-01T10:11:55+05:30
 draft: false
 author: "Pratik Jagrut"
 layout: "blog"
+images:
+  - src: "img/golang/error.jpg"
+    alt: "error img"
+    stretch: "vertical"
+    # removeBlur: true
 categories:
   - "golang"
 tags:
@@ -62,7 +67,7 @@ Program exited: status 1.
 ```
 ***<a href="https://play.golang.org/p/m6f5_P8Brqz" style="color:DodgerBlue" target="_blank">Run the code in Go Playground</a>***
 
-In the above program, we are trying to open the README.md file that is not present, so os.Open function returns an error that we are inspecting and handling. 
+In the above program, we are trying to open the `README.md` file that is not present, so `os.Open` function returns an error that we are inspecting and handling. 
 
 ## Representation of error type
 
