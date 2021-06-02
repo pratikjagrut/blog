@@ -454,7 +454,7 @@ Below are some good reads about error handling.
   </b>
 </a> &emsp;
 
-<a href="/blog/golang/contents">
+<a href="/blog/golang/series/contents">
   <b style="color:DodgerBlue">
     <i>• Contents</i>
   </b>

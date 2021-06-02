@@ -286,7 +286,7 @@ In the above example, `switch err.(type)` will discern the underlying type of th
   </b>
 </a> &emsp;
 
-<a href="/blog/golang/contents">
+<a href="/blog/golang/series/contents">
   <b style="color:DodgerBlue">
     <i>• Contents</i>
   </b>
