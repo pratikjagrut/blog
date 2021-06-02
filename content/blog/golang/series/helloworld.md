@@ -1,6 +1,6 @@
 ---
 title: "Classic hello world program"
-date: 2020-12-19T21:48:51+05:30
+date: 2020-12-19T17:23:49+05:32
 draft: false
 author: "Pratik Jagrut"
 layout: "blog"
@@ -11,10 +11,10 @@ tags:
   - "programming"
   - "2020"
 ---
-
-### First thing, packages
+## Source code organization
+### Packages
 In Go, source files are organized into system directories called packages, which enable code reusability.
-When you build reusable pieces of code, you will develop a package as a shared library. But when you develop executable programs, you will use the package `main` for making the package as an executable program. The package `main` tells the Go compiler that the package should compile as an executable program instead of a shared library.
+When you build reusable pieces of code, you will develop a package as a shared library. While developing executable commands we should use `main` package. The package `main` tells the Go compiler that the package should compile as an executable program instead of a shared library.
 
 ```
 package main
@@ -36,7 +36,7 @@ import(
 
 ### Main function
 The `main` function in the package `main` will be the entry point of our executable program. 
-When you build shared libraries, you will not have any main package and main function in the package.
+When you build shared libraries, you will not have any main package and main function.
 
 ```
 func main(){}
