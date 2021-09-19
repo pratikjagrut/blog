@@ -48,7 +48,7 @@ disableLanguages        = []
 
   [params.intro]
     header                = "Pratik Jagrut"
-    paragraph             = "Engineer @ Red Hat | Avid Linux lover | Opensource Enthusiast | Coder | Blogger | Tech speaker | Geek | Traveler | Frolicsome"
+    paragraph             = "Engineer @ Loft labs, Inc. | Avid Linux lover | Opensource Enthusiast | Coder | Blogger | Tech speaker | Geek | Traveler | Frolicsome"
     rssIntro              = false
     socialIntro           = true
     hideWhenSingleColumn  = false
