@@ -1,6 +1,6 @@
 # For a description of these parameters, please visit the theme wiki.
 # https://github.com/pacollins/hugo-future-imperfect-slim/wiki/config.toml
-baseurl                 = "https://pratikjagrut.dev/"
+baseurl                 = "https://psj.codes/"
 DefaultContentLanguage  = "en"
 title                   = "Pratik Jagrut"
 theme                   = "hugo-future-imperfect-slim"
@@ -48,7 +48,7 @@ disableLanguages        = []
 
   [params.intro]
     header                = "Pratik Jagrut"
-    paragraph             = "Engineer @ Loft labs, Inc. | Avid Linux lover | Opensource Enthusiast | Coder | Blogger | Tech speaker | Geek | Traveler | Frolicsome"
+    paragraph             = "Engineer | Avid Linux lover | Opensource Enthusiast | Coder | Blogger | Tech speaker | Geek | Traveler | Frolicsome"
     rssIntro              = false
     socialIntro           = true
     hideWhenSingleColumn  = false

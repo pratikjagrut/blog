@@ -37,7 +37,7 @@ I'm very enamored of outdoor activities. I like to play European football, swimm
     <h5 style="color:green;" class="far fa-envelope">Email</h5> -->
 </a>
  
-[website]: https://pratikjagrut.dev/
+[website]: http://psj.codes/
 [twitter]: https://twitter.com/pratikjagrut
 [linkedin]: https://www.linkedin.com/in/pratikjagrut
 [mailto]: mailto:jagrut.pratik@gmail.com
